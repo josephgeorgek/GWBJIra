@@ -31,3 +31,7 @@ Go to github to download the data file: https://github.com/apache-superset/examp
 Unzip the file and map it to the local apache server
 
 Modify examples/helpers.py base_url to the local address
+
+computed coliumns
+CLOSEDSP
+(case when "Status" like 'DONE' then  "Custom field _Story Points_" when "Status" like 'PROD' then  "Custom field _Story Points_" when "Status" like 'SIT' then  "Custom field _Story Points_" when "Status" like 'UAT' then  "Custom field _Story Points_" else 0 end )
