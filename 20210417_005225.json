@@ -1,0 +1,2372 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "GWB",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"163\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\", \"color_scheme\": null, \"filter_scopes\": {\"163\": {\"Project name\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"remote_id\": 12}",
+                "position_json": "{\"CHART-0WkzNuDQGu\":{\"children\":[],\"id\":\"CHART-0WkzNuDQGu\",\"meta\":{\"chartId\":155,\"height\":50,\"sliceName\":\"GWB Defects\",\"uuid\":\"2d2d75e5-7af3-461c-8b9d-d44cde6e4a6d\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-5OFKQT2VG\"],\"type\":\"CHART\"},\"CHART-12LAzxQieN\":{\"children\":[],\"id\":\"CHART-12LAzxQieN\",\"meta\":{\"chartId\":154,\"height\":29,\"sliceName\":\"GWP Defects by Prority\",\"uuid\":\"fbc5b356-03e4-4b36-978d-63da6e6190f2\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-n0er31bOrI\"],\"type\":\"CHART\"},\"CHART-2h4fxwWlbQ\":{\"children\":[],\"id\":\"CHART-2h4fxwWlbQ\",\"meta\":{\"chartId\":152,\"height\":36,\"sliceName\":\"GWP Project Leadership Board\",\"uuid\":\"8d245e81-0934-45e9-a8b6-66996fcfa8f3\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-MW2Ggdqis\"],\"type\":\"CHART\"},\"CHART-7Td6hCkmEX\":{\"children\":[],\"id\":\"CHART-7Td6hCkmEX\",\"meta\":{\"chartId\":173,\"height\":53,\"sliceName\":\"GWB Work Spread\",\"uuid\":\"bbbfeb19-0c71-4f10-b473-08c6bf4f9eba\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-qjTOI7oC73\"],\"type\":\"CHART\"},\"CHART-B0gf-PvKRz\":{\"children\":[],\"id\":\"CHART-B0gf-PvKRz\",\"meta\":{\"chartId\":158,\"height\":38,\"sliceName\":\"GWB Release Velocity\",\"uuid\":\"53adf1a0-83cb-45ac-bc47-5e564f28ce64\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-mshWYqaCLJ\"],\"type\":\"CHART\"},\"CHART-EEXepg3HmV\":{\"children\":[],\"id\":\"CHART-EEXepg3HmV\",\"meta\":{\"chartId\":159,\"height\":38,\"sliceName\":\"GWB Biz Value Burn UP \",\"uuid\":\"eb2eebab-e3fc-4c99-9833-ad01ddb5d218\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-uhFAnNcAT\"],\"type\":\"CHART\"},\"CHART-G_2gDa_Kg2\":{\"children\":[],\"id\":\"CHART-G_2gDa_Kg2\",\"meta\":{\"chartId\":153,\"height\":28,\"sliceName\":\"GWB Defects Trends\",\"uuid\":\"43547d82-4bab-4fa4-87b0-4cad9669b419\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-n0er31bOrI\"],\"type\":\"CHART\"},\"CHART-J_upe9nVEj\":{\"children\":[],\"id\":\"CHART-J_upe9nVEj\",\"meta\":{\"chartId\":168,\"height\":51,\"sliceName\":\"GWP Sprint Defect Heatmap\",\"uuid\":\"a5433ef2-346d-4b33-9c1f-859133f62ffb\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-X1Ip6SbHv\"],\"type\":\"CHART\"},\"CHART-PjWsF5x0bx\":{\"children\":[],\"id\":\"CHART-PjWsF5x0bx\",\"meta\":{\"chartId\":164,\"height\":51,\"sliceName\":\"GWB Defects by Priority\",\"uuid\":\"b91609ca-6b03-47b5-842f-06bff429efa3\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-KFFALbk3U\"],\"type\":\"CHART\"},\"CHART-ZyWWz8Vuey\":{\"children\":[],\"id\":\"CHART-ZyWWz8Vuey\",\"meta\":{\"chartId\":151,\"height\":38,\"sliceName\":\"GWP Project Leadership Board\",\"uuid\":\"5f648293-efca-47c2-97c1-2d06b5aa6eea\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-v_-c7WyyyB\"],\"type\":\"CHART\"},\"CHART-gLbdzo_0Bg\":{\"children\":[],\"id\":\"CHART-gLbdzo_0Bg\",\"meta\":{\"chartId\":161,\"height\":38,\"sliceName\":\"GWB Storyline\",\"uuid\":\"a1bb763e-91bf-44eb-83f1-8b06f35e10d2\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-v_-c7WyyyB\"],\"type\":\"CHART\"},\"CHART-gnShWBvR9s\":{\"children\":[],\"id\":\"CHART-gnShWBvR9s\",\"meta\":{\"chartId\":162,\"height\":35,\"sliceName\":\"GWB Weekly Trends\",\"uuid\":\"0ce5aa18-9ef5-4382-842f-f27886b9176e\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-MW2Ggdqis\"],\"type\":\"CHART\"},\"CHART-i2Uhl-mydz\":{\"children\":[],\"id\":\"CHART-i2Uhl-mydz\",\"meta\":{\"chartId\":160,\"height\":40,\"sliceName\":\"GWB Estimation Accuracy\",\"uuid\":\"e8a5e1f1-6b36-47a4-ba40-dfd54d974aae\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Z7481pffi\"],\"type\":\"CHART\"},\"CHART-k31LZ8yQ5h\":{\"children\":[],\"id\":\"CHART-k31LZ8yQ5h\",\"meta\":{\"chartId\":166,\"height\":54,\"sliceName\":\"GWB Top Performers\",\"uuid\":\"56cbc4a7-d9fa-4b67-883d-249ebbafaa00\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-qjTOI7oC73\"],\"type\":\"CHART\"},\"CHART-pI3Kr3DFp2\":{\"children\":[],\"id\":\"CHART-pI3Kr3DFp2\",\"meta\":{\"chartId\":167,\"height\":53,\"sliceName\":\"GWB Sprint Velocity\",\"uuid\":\"a3d88baa-157b-4af3-aa4c-1545c9faca76\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-B9f5fr2fC7\"],\"type\":\"CHART\"},\"CHART-sfdpGjVlGz\":{\"children\":[],\"id\":\"CHART-sfdpGjVlGz\",\"meta\":{\"chartId\":170,\"height\":45,\"sliceName\":\"GWP Project Level Priorty Distribution\",\"uuid\":\"2294ea24-5c89-4fbf-82b5-87b74edb2c5d\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-BB_tfqhHo\"],\"type\":\"CHART\"},\"CHART-shoycJAWPB\":{\"children\":[],\"id\":\"CHART-shoycJAWPB\",\"meta\":{\"chartId\":165,\"height\":53,\"sliceName\":\"GWP Defects by Status\",\"uuid\":\"0ef29e6b-e43a-47f3-b043-f76a2e47d884\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-KFFALbk3U\"],\"type\":\"CHART\"},\"CHART-xQCZuKcw3q\":{\"children\":[],\"id\":\"CHART-xQCZuKcw3q\",\"meta\":{\"chartId\":171,\"height\":36,\"sliceName\":\"Overall Status Spread\",\"uuid\":\"1e051c30-ae2b-4b61-bb52-5fb5ade5167d\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-MW2Ggdqis\"],\"type\":\"CHART\"},\"CHART-zsCK3bE-pe\":{\"children\":[],\"id\":\"CHART-zsCK3bE-pe\",\"meta\":{\"chartId\":163,\"height\":36,\"sliceName\":\"GWB Context filter \",\"uuid\":\"92741e0d-a8c2-4229-9672-b0c01861d024\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-MW2Ggdqis\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-0SpCdPynrB\":{\"children\":[],\"id\":\"DIVIDER-0SpCdPynrB\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-TnUbW0rhoS\":{\"children\":[],\"id\":\"DIVIDER-TnUbW0rhoS\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"ROW-MW2Ggdqis\",\"ROW-B9f5fr2fC7\",\"ROW-mshWYqaCLJ\",\"ROW-uhFAnNcAT\",\"ROW-BB_tfqhHo\",\"HEADER-pyjWEffH7B\",\"ROW-v_-c7WyyyB\",\"ROW-qjTOI7oC73\",\"DIVIDER-0SpCdPynrB\",\"HEADER-l4IOh22SoQ\",\"ROW-5OFKQT2VG\",\"ROW-n0er31bOrI\",\"DIVIDER-TnUbW0rhoS\",\"ROW-KFFALbk3U\",\"ROW-X1Ip6SbHv\",\"HEADER-MlSttpdzk3\",\"ROW-Z7481pffi\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-MlSttpdzk3\":{\"children\":[],\"id\":\"HEADER-MlSttpdzk3\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Story Point Accuracy\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-l4IOh22SoQ\":{\"children\":[],\"id\":\"HEADER-l4IOh22SoQ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Defect Tracker\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-pyjWEffH7B\":{\"children\":[],\"id\":\"HEADER-pyjWEffH7B\",\"meta\":{\"background\":\"BACKGROUND_WHITE\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Leadership Board\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"GWB\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-5OFKQT2VG\":{\"children\":[\"CHART-0WkzNuDQGu\"],\"id\":\"ROW-5OFKQT2VG\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-B9f5fr2fC7\":{\"children\":[\"CHART-pI3Kr3DFp2\"],\"id\":\"ROW-B9f5fr2fC7\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-BB_tfqhHo\":{\"children\":[\"CHART-sfdpGjVlGz\"],\"id\":\"ROW-BB_tfqhHo\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-KFFALbk3U\":{\"children\":[\"CHART-PjWsF5x0bx\",\"CHART-shoycJAWPB\"],\"id\":\"ROW-KFFALbk3U\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-MW2Ggdqis\":{\"children\":[\"CHART-zsCK3bE-pe\",\"CHART-gnShWBvR9s\",\"CHART-xQCZuKcw3q\",\"CHART-2h4fxwWlbQ\"],\"id\":\"ROW-MW2Ggdqis\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-X1Ip6SbHv\":{\"children\":[\"CHART-J_upe9nVEj\"],\"id\":\"ROW-X1Ip6SbHv\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-Z7481pffi\":{\"children\":[\"CHART-i2Uhl-mydz\"],\"id\":\"ROW-Z7481pffi\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-mshWYqaCLJ\":{\"children\":[\"CHART-B0gf-PvKRz\"],\"id\":\"ROW-mshWYqaCLJ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-n0er31bOrI\":{\"children\":[\"CHART-G_2gDa_Kg2\",\"CHART-12LAzxQieN\"],\"id\":\"ROW-n0er31bOrI\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-qjTOI7oC73\":{\"children\":[\"CHART-k31LZ8yQ5h\",\"CHART-7Td6hCkmEX\"],\"id\":\"ROW-qjTOI7oC73\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-uhFAnNcAT\":{\"children\":[\"CHART-EEXepg3HmV\"],\"id\":\"ROW-uhFAnNcAT\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-v_-c7WyyyB\":{\"children\":[\"CHART-gLbdzo_0Bg\",\"CHART-ZyWWz8Vuey\"],\"id\":\"ROW-v_-c7WyyyB\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 151,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"echarts5Colors\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Issue Type\", \"Status\"], \"linear_color_scheme\": \"purple_white_green\", \"metric\": \"count\", \"row_limit\": 10000, \"slice_id\": 151, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"sunburst\", \"remote_id\": 151, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWP Project Leadership Board",
+                            "viz_type": "sunburst"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 152,
+                            "params": "{\"adhoc_filters\": [], \"column_collection\": [{\"bounds\": [null, null], \"colType\": \"spark\", \"comparisonType\": \"\", \"d3format\": \"\", \"dateFormat\": \"\", \"height\": \"\", \"key\": \"ekNApn8oo\", \"label\": \"SP Trends\", \"showYAxis\": false, \"timeLag\": 0, \"timeRatio\": \"\", \"tooltip\": \"\", \"width\": \"\", \"yAxisBounds\": [null, null]}], \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Project name\"], \"limit\": 100, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(\\\"Custom field _Story Points_\\\")\", \"optionName\": \"metric_hys743ekjz9_u9gtpb9gyg\", \"sqlExpression\": \"SUM(\\\"Custom field _Story Points_\\\")\"}], \"row_limit\": 10000, \"slice_id\": 152, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"time_table\", \"remote_id\": 152, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWP Project Leadership Board",
+                            "viz_type": "time_table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 153,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"monotone\", \"metrics\": [{\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"Issue key\", \"description\": null, \"expression\": \"\", \"filterable\": true, \"groupby\": true, \"id\": 1162, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"TEXT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Defect Count\", \"optionName\": \"metric_mguu9yvlmp_n2sdspmfbre\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"slice_id\": 153, \"time_grain_sqla\": \"PT1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 153, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Defects Trends",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 154,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"echarts5Colors\", \"comparison_type\": \"values\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Priority\"], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [\"count\"], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"slice_id\": 154, \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"bar\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 154, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWP Defects by Prority",
+                            "viz_type": "bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 155,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"presetColors\", \"columns\": [\"Priority\"], \"contribution\": false, \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Sprint\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"order_bars\": true, \"order_desc\": false, \"reduce_x_ticks\": false, \"row_limit\": 10000, \"show_controls\": true, \"slice_id\": 155, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": [], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 155, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Defects",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 158,
+                            "params": "{\"adhoc_filters\": [], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"d3Category20b\", \"columns\": [\"Status\"], \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Fix Version/s\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"order_bars\": true, \"order_desc\": true, \"row_limit\": 10000, \"slice_id\": 158, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": [], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 158, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Release Velocity",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 159,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"step-after\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Total SP\", \"optionName\": \"metric_8w8a3tleup_h5l9wef8fj6\", \"sqlExpression\": \"SUM(\\\"Custom field _Story Points_\\\")\"}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"closedSP\", \"description\": \"CLOSEDSP\", \"expression\": \"(case when \\\"Status\\\" like 'DONE' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'PROD' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'SIT' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'UAT' then  \\\"Custom field _Story Points_\\\" else 0 end )\\n\", \"filterable\": true, \"groupby\": true, \"id\": 1243, \"is_dttm\": false, \"python_date_format\": null, \"type\": null, \"verbose_name\": \"CLOSEDSP\"}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Completed SP\", \"optionName\": \"metric_e4xjkp10ng_hr3eqfogy9o\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"cumsum\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"slice_id\": 159, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 159, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Biz Value Burn UP ",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 160,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"label_colors\": {}, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Original Estimate\", \"optionName\": \"metric_0mxa0mlfqgr_ycfb5atrbg\", \"sqlExpression\": \"SUM(\\\"Original Estimate\\\")\"}, \"metric_2\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Actual Burnout\", \"optionName\": \"metric_k5fjluflps_j877fs8seb\", \"sqlExpression\": \"SUM(\\\"Time Spent\\\")\"}, \"slice_id\": 160, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dual_line\", \"x_axis_format\": \"smart_date\", \"y_axis_2_bounds\": [null, null], \"y_axis_2_format\": \"SMART_NUMBER\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 160, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Estimation Accuracy",
+                            "viz_type": "dual_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 161,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Project name\"], \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Story Points\", \"optionName\": \"metric_mx8hlrq4pb_yfjc8khx6cb\", \"sqlExpression\": \"SUM(\\\"Custom field _Story Points_\\\")\"}], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": \"15\", \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 161, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Storyline",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 162,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"compare_lag\": 1, \"compare_suffix\": \"WoW\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Story Trends\", \"optionName\": \"metric_9oq3wswng2n_g7f8czn5twf\", \"sqlExpression\": \"SUM(\\\"Custom field _Story Points_\\\")\"}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1W\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 162, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Weekly Trends",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 163,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"33__table\", \"date_filter\": true, \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"Project name\", \"key\": \"HdheWBwM-\", \"multiple\": true, \"searchAllOptions\": true}], \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"slice_id\": 163, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 163, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Context filter ",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 164,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"Priority\"], \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Project name\", \"Sprint\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"order_bars\": true, \"order_desc\": false, \"row_limit\": 10000, \"slice_id\": 164, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 164, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Defects by Priority",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 165,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"Status\"], \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Sprint\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"order_bars\": true, \"order_desc\": false, \"row_limit\": 10000, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 165, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWP Defects by Status",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 166,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"label_colors\": {}, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(\\\"Custom field _Story Points_\\\")\", \"optionName\": \"metric_2kevso25n7r_jwsp986pjw\", \"sqlExpression\": \"SUM(\\\"Custom field _Story Points_\\\")\"}, \"rotation\": \"flat\", \"row_limit\": 5000, \"series\": \"Assignee\", \"size_from\": 10, \"size_to\": 70, \"slice_id\": 166, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"word_cloud\", \"remote_id\": 166, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Top Performers",
+                            "viz_type": "word_cloud"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 167,
+                            "params": "{\"adhoc_filters\": [], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"d3Category20c\", \"columns\": [], \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Sprint\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"SP Committed\", \"optionName\": \"metric_t57oom4f3sh_fyuyp5vq3vd\", \"sqlExpression\": \"SUM(\\\"Custom field _Story Points_\\\")\"}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"closedSP\", \"description\": \"CLOSEDSP\", \"expression\": \"(case when \\\"Status\\\" like 'DONE' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'PROD' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'SIT' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'UAT' then  \\\"Custom field _Story Points_\\\" else 0 end )\\n\", \"filterable\": true, \"groupby\": true, \"id\": 1243, \"is_dttm\": false, \"python_date_format\": null, \"type\": null, \"verbose_name\": \"CLOSEDSP\"}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"SPs Done\", \"optionName\": \"metric_8avwvzxvzww_pzj4qswx588\", \"sqlExpression\": null}], \"order_bars\": true, \"order_desc\": false, \"row_limit\": 10000, \"slice_id\": 167, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": [], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 167, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Sprint Velocity",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 168,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"Sprint\", \"all_columns_y\": \"Priority\", \"bottom_margin\": \"auto\", \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"oranges\", \"metric\": \"count\", \"normalize_across\": \"heatmap\", \"row_limit\": 10000, \"show_perc\": true, \"slice_id\": 168, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"remote_id\": 168, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWP Sprint Defect Heatmap",
+                            "viz_type": "heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 170,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"d3Category20b\", \"columns\": [], \"datasource\": \"33__table\", \"date_format\": \"smart_date\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Project name\", \"Priority\"], \"limit\": \"25\", \"metrics\": [\"count\"], \"number_format\": \"SMART_NUMBER\", \"slice_id\": 170, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"box_plot\", \"whiskerOptions\": \"Tukey\", \"x_ticks_layout\": \"staggered\", \"remote_id\": 170, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWP Project Level Priorty Distribution",
+                            "viz_type": "box_plot"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 171,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"33__table\", \"date_format\": \"smart_date\", \"donut\": true, \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Status\"], \"innerRadius\": 41, \"label_line\": true, \"label_type\": \"key\", \"labels_outside\": true, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"metric\": \"count\", \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 65, \"row_limit\": null, \"show_labels\": true, \"show_labels_threshold\": 2, \"show_legend\": false, \"slice_id\": 171, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 171, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "Overall Status Spread",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 173,
+                            "params": "{\"adhoc_filters\": [], \"columns\": [\"Project key\"], \"datasource\": \"33__table\", \"date_format\": \"smart_date\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Assignee\"], \"metrics\": [\"count\"], \"number_format\": \"SMART_NUMBER\", \"order_desc\": true, \"pandas_aggfunc\": \"sum\", \"pivot_margins\": true, \"row_limit\": 50000, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pivot_table\", \"remote_id\": 173, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Work Spread",
+                            "viz_type": "pivot_table"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Summary",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1161,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "f3f74491-8f52-4083-89e4-4137a75b47cd",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Issue key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1162,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "d41f28f4-602c-46ed-8927-b8a510451d4d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "ApplicationName",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1163,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "f22c1053-d359-41ca-8a6c-558eb5253aa9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Issue id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1164,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "BIGINT",
+                            "uuid": "8402cd63-15a1-4ed5-8d11-aa971b460b4b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Issue Type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1165,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "9dcbadaf-39b1-4504-a185-8ff3da7a9a3c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Status",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1166,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "be2c3a9e-34dd-48a5-8904-b846c4b5d74f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Project key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1167,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "c5a7f21b-6e4a-4817-aa49-e51090f66568",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Project name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1168,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "efbc8f96-1da0-4485-aebb-55c8f0aaea75",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Project type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1169,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "bec635f9-488c-4316-8ab3-4d49f3af8632",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Project lead",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1170,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "94c9628e-904a-4829-a846-e3274917cd58",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Project description",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1171,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "e601dda6-3df5-4717-b0c4-fd8a0dd2273c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Project url",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1172,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "95563aef-11a4-41ae-9b55-c96728960683",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Priority",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1173,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "a307e5fb-ac63-4241-99c0-a9fb2b58aa4d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Resolution",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1174,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "dbf3e2e6-3ab3-4634-a08c-fef220f5d0f7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Sprint",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1175,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "63bbc809-9151-4600-9958-aa04a27810f3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Story Points_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1176,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "BIGINT",
+                            "uuid": "2adceb6c-3566-4cea-96e2-171ea7f046a6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Assignee",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1177,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "c6597769-3620-4598-be7f-ad03b24eae00",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Customfield_SprintEndDate_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1178,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "1edd3193-b9af-4195-878e-bf7e1a752b96",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Reporter",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1179,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "bfa74993-658f-4aa4-baa2-4c0703b4edeb",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Creator",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1180,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "8f744de4-a34e-4112-a6b7-78ed9c21f295",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Created",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1181,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "5c338e28-7988-4fa8-a2be-e5c2c07d24b9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Updated",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1182,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "7332f187-8725-4ceb-bf2c-d4fb190c1be6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Last Viewed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1183,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "c6bca3db-90f4-4b24-a90e-9aaf621108e1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Resolved",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1184,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "cfcffa95-5875-4d62-a13f-64944d648e59",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Affects Version/s",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1185,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "c1182d70-950e-4d0f-a759-32a89e850f68",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T06:34:37"
+                            },
+                            "column_name": "Fix Version/s",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1186,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "e22b611f-5a99-4d1f-80c2-b39d4f40a527",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Component/s",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1187,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "53a7014d-dc0d-40b3-aec2-d3b7ae152886",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Component/s.1",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1188,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "6ca56d16-15e3-4bdb-8678-c86ba5e9ef78",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Due Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1189,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "7a5e5de8-4901-4b2a-a3eb-b1b2cde98d45",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Labels",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1190,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "625bb33a-d68c-43d9-bc9b-38947d68a79f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Labels.1",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1191,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "c0b09acc-76f5-4349-92f7-f6103ec51590",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Labels.2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1192,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "d2f75370-d6ec-4cd2-85ef-bf3e2b007e5e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Description",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1193,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "88866c6e-2902-43cf-9744-08b79161335d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Environment",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1194,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "c05a25a8-d821-43d7-bc77-6b7d37190451",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Log Work",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1195,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "54d152a5-994e-4e01-a29b-51b5950fa5f6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Original Estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1196,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "BIGINT",
+                            "uuid": "a0c855bc-b0b5-412a-9a60-95b4f70d3138",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Remaining Estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1197,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "BIGINT",
+                            "uuid": "fc7a8904-7147-4907-81c9-f786843547cf",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Time Spent",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1198,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "BIGINT",
+                            "uuid": "b5fe0b07-c8d5-4734-afc8-e5000d14a75a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T06:34:37"
+                            },
+                            "column_name": "Work Ratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1199,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "1b032434-c8a5-43e2-bab9-4aa42a2c7dc7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "\u03a3 Original Estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1200,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "abe489ff-448f-4969-8ece-fbc6ace5760f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "\u03a3 Remaining Estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1201,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "dec9d1b3-2a99-4b11-a57f-ae23a87aefaf",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "\u03a3 Time Spent",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1202,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "483f5467-6416-4641-a21a-0b1319855350",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Security Level",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1203,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "b7b2a3d2-326b-4163-9fa0-fc6672a158d2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Inward issue link _Relates_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1204,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "39fd3a44-8667-404b-bbb1-89dc0a34a3cf",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Outward issue link _Relates_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1205,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "1343cbb5-a80e-44e3-8231-1eb1e2e3c5f9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Attachment",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1206,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "afd3baaa-0dd5-42eb-9ff6-0613338df97e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Approvers_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1207,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "2ce2cdbf-cfe2-4930-8a4b-423176b0d628",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Approvers_.1",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1208,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "7c4663a8-c7cd-4b8d-b3c5-bff20fec361a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Change completion date_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1209,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "883059da-6349-4ddf-95f3-ddf361b8e993",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Change start date_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1210,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "38c6fa01-0f19-4d93-a649-1e5d3e27f77f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Customer Request Type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1211,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "cd68c752-743f-406b-af04-ffdf4a7265e8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Epic Colour_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1212,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "e6be7d0d-b240-41fb-a4c0-7661dc7cb156",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Epic Link_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1213,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "ad033938-87f5-44ce-8125-d9b13a1afaee",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Epic Name_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1214,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "c599ac8e-0bf7-473e-a311-d8186806a7aa",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Epic Status_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1215,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "23f87ab2-e2f4-40d4-8d27-44fbcc852284",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Impact_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1216,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "2789d077-4613-4b4f-909e-800ea9d9e932",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Linked major incidents_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1217,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "402a903b-6825-43dc-88b7-edb104d6276d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Operational categorization_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1218,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "51b97922-ed33-495f-a387-d23e08d08526",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Organizations_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1219,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "10b65e76-a2f1-4f28-8682-9f2cd02bc595",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Organizations_.1",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1220,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "7cb64331-c972-41db-8b07-f57e04679924",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Product categorization_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1221,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "1959a2ba-b743-40ff-b716-5d306721bee3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _RAG_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1222,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "cd499314-d67e-4d32-af3e-2f5e49664b44",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Rank_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1223,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "76e65437-948a-408f-b698-941edd35c09b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Request participants_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1224,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "1e234d69-16c4-4a91-b54a-ac1ba414c5e8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Reviewed_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1225,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TEXT",
+                            "uuid": "fc44c2bb-974e-4d44-b79b-0749b6b93e81",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Root cause_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1226,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "d6907a2c-0e11-4ee3-867a-4f45f37d2bc2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Satisfaction score _out of 5_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1227,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "1c05de37-3495-4cd0-aa6c-65f550302b17",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Scripted Number Field_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1228,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "BIGINT",
+                            "uuid": "ce2ebd31-a415-4b3d-9515-4d45ee85c26d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Unnamed: 68",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1229,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "69683171-fe93-4052-af96-f21592016f9a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Unnamed: 69",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1230,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "2d2d416b-6600-451c-8f6d-8e7e608d0cee",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Time to approve normal change",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1231,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "a7fa9358-34d5-4b97-90f3-207c14e15c01",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Time to approve normal change simplified",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1232,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "a7b6308c-2f5a-4167-a94f-e2e46f197a58",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Time to close after resolution",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1233,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "8e2b1253-d734-455e-bc80-5dc2aec5a032",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Time to close after resolution simplified",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1234,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "eeda63be-5ae8-426f-b735-f61489d0597e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Time to first response",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1235,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "10c93152-70c0-4579-8be1-93f3df8de555",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Time to first response simplified",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1236,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "8a7073ca-8710-40c2-b039-a1636a63c5e4",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Time to resolution",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1237,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "2c4e6f6c-2528-4e0b-b738-8a16a39b468c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Time to resolution simplified",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1238,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "cc23c9a6-bdf3-4d8d-8124-08bbe140647b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Custom field _Workaround_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1239,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "32c70e12-5368-4422-8d59-c5dc2d1c4dcb",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Comment",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1240,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "69f0e2dc-938a-4499-bb90-10b8d7138858",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T04:45:37"
+                            },
+                            "column_name": "Comment.1",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1241,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "34f7999d-4b3e-4354-990a-6deb98656c3f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T02:41:29"
+                            },
+                            "column_name": "closedSP",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-10T02:26:22"
+                            },
+                            "description": "CLOSEDSP",
+                            "expression": "(case when \"Status\" like 'DONE' then  \"Custom field _Story Points_\" when \"Status\" like 'PROD' then  \"Custom field _Story Points_\" when \"Status\" like 'SIT' then  \"Custom field _Story Points_\" when \"Status\" like 'UAT' then  \"Custom field _Story Points_\" else 0 end )\n",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1243,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": null,
+                            "uuid": "48d49fc5-de05-48c4-9c1c-c0ff29aed6c6",
+                            "verbose_name": "CLOSEDSP"
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T07:04:00"
+                            },
+                            "column_name": "sprint_no",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-10T07:00:07"
+                            },
+                            "description": "sprint_no",
+                            "expression": "RIGHT(\"Sprint\", 2) ",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1244,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "NUMERIC",
+                            "uuid": "eb7f6471-7445-4d5b-b155-e6575413b163",
+                            "verbose_name": "sprint_no"
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T07:04:57"
+                            },
+                            "column_name": "version",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-10T07:04:57"
+                            },
+                            "description": "version",
+                            "expression": "RIGHT(\"Fix Version/s\", 6) ",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1245,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "NUMERIC",
+                            "uuid": "3e1ae26e-bd80-4caa-a1b0-8d675e44bebb",
+                            "verbose_name": "version"
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Customfield_SprintEndDate_",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-10T02:21:25"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-09T10:37:59"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": "{}",
+                            "id": 41,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 33,
+                            "uuid": "a91f6193-6bf1-4e24-9017-0a677013adc1",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 33, \"database_name\": \"postgresDB\"}",
+                "schema": null,
+                "sql": "",
+                "table_name": "Test_JIRA_BV_9.3",
+                "template_params": null
+            }
+        }
+    ]
+}
