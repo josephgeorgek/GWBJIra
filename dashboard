@@ -44,7 +44,7 @@ yum install -y python3-devel.x86_64
 sudo yum upgrade python-setuptools
 sudo yum install gcc gcc-c++ libffi-devel python-devel python-pip python-wheel openssl-devel cyrus-sasl-devel openldap-devel
 //pip download apache-superset
-pip install --no-index --find-links=./
+pip install apache-superset --no-index --find-links=/.
 
 
 superset db upgrade
