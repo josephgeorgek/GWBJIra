@@ -1,0 +1,87 @@
+   String  urlRequest = "https://httpbin.org/user-agent";
+        logger.debug("Scheduled Job for getConnected {} starting for tenant {} urlRequest{} ", getClass(), PRINCIPAL, urlRequest);
+   this.uTSClient.getConnected(  urlRequest);
+        
+          urlRequest = "https://self-signed.badssl.com/";
+          logger.debug("Scheduled Job for getConnected {} starting for tenant {} urlRequest{} ", getClass(), PRINCIPAL, urlRequest);
+        this.uTSClient.getConnected(  urlRequest);
+        
+        
+        urlRequest = "https://badssl.com/";
+        logger.debug("Scheduled Job for getConnected {} starting for tenant {} urlRequest{} ", getClass(), PRINCIPAL, urlRequest);
+      this.uTSClient.getConnected(  urlRequest);
+      
+      urlRequest = "https://expired.badssl.com/";
+      logger.debug("Scheduled Job for getConnected {} starting for tenant {} urlRequest{} ", getClass(), PRINCIPAL, urlRequest);
+    this.uTSClient.getConnected(  urlRequest);
+      
+    urlRequest = "https://www.callicoder.com";
+    logger.debug("Scheduled Job for getConnected {} starting for tenant {} urlRequest{} ", getClass(), PRINCIPAL, urlRequest);
+  this.uTSClient.getConnected(  urlRequest);
+        
+        logger.debug("Scheduled Job for getConnected {} starting for tenant {}", getClass(), PRINCIPAL);
+
+
+https://github.com/UniconLabs/java-keystore-ssl-test
+
+HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+         connection.setRequestMethod("GET");
+         connection.setRequestProperty("Accept", "application/json");
+         
+         if (connection instanceof HttpsURLConnection ) {
+            ((HttpsURLConnection) connection).setSSLSocketFactory(getSSLContext().getSocketFactory());
+            logger.info("HTTPS Connection: setting SSL handler");
+        }
+ BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+         String line;
+         while ((line = br.readLine()) != null) {
+             output.append(line + "\n");
+         }
+         logger.info(urlRequest+"url output:" + output);
+
+
+
+protected static SSLContext getSSLContext() {
+        try {
+            SSLContext sslCtx = SSLContext.getInstance("TLS");
+            sslCtx.init(null, new TrustManager[]{ new X509TrustManager() {
+                private X509Certificate[] accepted;
+                @Override
+                public void checkClientTrusted(X509Certificate[] xcs, String string) throws CertificateException {
+                }
+                @Override
+                public void checkServerTrusted(X509Certificate[] xcs, String string) throws CertificateException {
+                    accepted = xcs;
+                }
+                @Override
+                public X509Certificate[] getAcceptedIssuers() {
+                    return accepted;
+                }
+            }}, null);
+            return sslCtx;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+    //-Djavax.net.ssl.trustStore=/app/security/truststore.jks
+     //    connection.setRequestProperty("Authorization", config.getAuthorization());
+     //    connectionReport(connection);
+    /*    System.setProperty("javax.net.debug", "ssl,handshake,keymanager,trustmanager");
+             //setSystemProperty("javax.net.debug", "all");
+             setSystemProperty("javax.net.ssl.keyStore", "/Users/josephgeorge/dev/ssl/keystore/cacerts");
+             // setSystemProperty("javax.net.ssl.keyStoreType", "pkcs12");
+             setSystemProperty("javax.net.ssl.keyStorePassword", "password");
+             setSystemProperty("javax.net.ssl.trustStore", "/Users/josephgeorge/dev/ssl/keystore/cacerts");
+             // setSystemProperty("javax.net.ssl.trustStoreType",
+             // instance.trustType);
+             setSystemProperty("javax.net.ssl.trustStorePassword", "password");
+             //System.out.println("javax.net.debug = " + System.getProperty("javax.net.debug"));
+ */    
+---
+ftp://ftp.forus.com/forus/csm/ftps/JavaTest.java
+---
+https://github.com/UniconLabs/java-keystore-ssl-test
+
+java -Djavax.net.debug=ssl:handshake:verbose:keymanager:trustmanager -Djava.security.debug=access:stack  JavaHttpsClient https://example.com:port 1
+
+https://access.redhat.com/solutions/973783
