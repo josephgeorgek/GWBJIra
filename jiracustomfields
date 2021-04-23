@@ -1,0 +1,37 @@
+statussorted
+
+(case "Status"
+            when 'DESIGN' then '1.DESIGN'
+            when 'TODO' then '2.TODO'
+            when 'INPROGRESS' then '3.INPROGRESS'
+            when 'DONE' then '4.DONE'
+            when 'SIT' then '5.SIT'
+            when 'UAT' then '6.UAT'
+            else "Status"
+        end)
+
+
+agegroup
+
+(case when random()*5 > 0 and random()*5 < 0.5 then  1 when random()*5 > 1 and random()*5 < 2 then  2 when random()*5 > 2 and random()*5 < 3 then  3 when  random()*5 > 3 and random()*5 < 5 then  5 when  random()*5 > 5  then  10  else 0 end )
+
+
+age
+random()*5
+
+PendingSP
+
+(case when "Status" like 'INPROGRESS' then  "Custom field _Story Points_" when "Status" like 'DESIGN' then  "Custom field _Story Points_" when "Status" like 'TODO' then  "Custom field _Story Points_"  else 0 end )
+
+
+
+assigneesorted
+(case "Assignee"
+            when 'DESIGN' then '1.DESIGN'
+            when 'TODO' then '2.TODO'
+            when 'INPROGRESS' then '3.INPROGRESS'
+            when 'DONE' then '4.DONE'
+            when 'SIT' then '5.SIT'
+            when 'UAT' then '6.UAT'
+            else "Status"
+        end)
