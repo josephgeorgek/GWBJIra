@@ -1,0 +1,2552 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "GWB Dashboard",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"153\\\": {\\\"__time_range\\\": \\\"Last quarter\\\"}}\", \"color_scheme\": \"googleCategory20c\", \"filter_scopes\": {\"153\": {\"Project name\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"remote_id\": 13, \"import_time\": 1618900702, \"label_colors\": {\"Age Groups\": \"#3366cc\", \"Hoi Kim Heng\": \"#dc3912\", \"Hazlina\": \"#ff9900\", \"Shunmugam\": \"#109618\", \"Terry\": \"#990099\", \"Commited\": \"#3366cc\", \"Done\": \"#dc3912\", \"In Progress\": \"#ff9900\", \"Medium\": \"#3366cc\", \"Low\": \"#dc3912\", \"Highest\": \"#ff9900\", \"UAT\": \"#109618\", \"DONE\": \"#990099\", \"SIT\": \"#0099c6\", \"DESIGN\": \"#dd4477\", \"TODO\": \"#66aa00\", \"INPROGRESS\": \"#b82e2e\", \"SP Committed\": \"#316395\", \"SP Total\": \"#994499\", \"SPs Commited\": \"#22aa99\", \"Pending\": \"#aaaa11\", \"Total SP\": \"#6633cc\", \"Average Closure\": \"#e67300\", \"Completed SP\": \"#8b0707\", \"GWB_ACC_SRV\": \"#651067\", \"GWB_MOBILE\": \"#329262\", \"GWB_TRADE\": \"#5574a6\", \"Nicholas Chia\": \"#3b3eac\", \"Chiam See Tong\": \"#3366cc\", \"Joseph\": \"#dc3912\", \"Chia Kiah Hong Steve\": \"#ff9900\", \"Chan Chun Sing\": \"#109618\", \"Hazlina Halim\": \"#990099\", \"Jing Jun Hong\": \"#0099c6\", \"Heng Swee Keat\": \"#dd4477\", \"Goh Tat Chuan\": \"#66aa00\", \"Kam Ning\": \"#b82e2e\", \"root\": \"#316395\", \"BUG\": \"#994499\", \"Story\": \"#22aa99\", \"GWB_TRADE,BUG\": \"#aaaa11\", \"GWB_TRADE,Story\": \"#6633cc\", \"GWB_MOBILE,BUG\": \"#e67300\", \"GWB_MOBILE,Story\": \"#8b0707\", \"GWB_ACC_SRV,BUG\": \"#651067\", \"GWB_ACC_SRV,Story\": \"#329262\", \"Sean\": \"#5574a6\", \"Yusof\": \"#3b3eac\", \"Hon\": \"#3366cc\", \"Mavis\": \"#dc3912\", \"Chiam\": \"#ff9900\", \"Sammie\": \"#109618\", \"Goh\": \"#990099\", \"Abdul\": \"#0099c6\", \"Daniel\": \"#dd4477\", \"Tharman\": \"#66aa00\", \"Keith\": \"#b82e2e\", \"Arun\": \"#316395\", \"Hoi\": \"#994499\", \"Han\": \"#22aa99\", \"Joshua\": \"#aaaa11\", \"Nicholas\": \"#6633cc\", \"Chan\": \"#e67300\", \"Ivan\": \"#8b0707\", \"Kit\": \"#651067\", \"Indranee\": \"#329262\", \"Joanna\": \"#5574a6\", \"Jeanette\": \"#3b3eac\", \"Jiang\": \"#3366cc\", \"Ho\": \"#dc3912\", \"Desmond\": \"#ff9900\", \"S\": \"#109618\", \"Rebecca\": \"#990099\", \"Taufik\": \"#0099c6\", \"Gerard\": \"#dd4477\", \"Agu\": \"#66aa00\", \"Vivian\": \"#b82e2e\", \"Ang\": \"#316395\", \"Heng\": \"#994499\", \"Khaw\": \"#22aa99\", \"Jing\": \"#aaaa11\", \"Fandi\": \"#6633cc\", \"Kam\": \"#e67300\", \"Lye\": \"#8b0707\", \"Chia\": \"#651067\", \"Philip\": \"#329262\", \"Chew\": \"#5574a6\", \"Rohan\": \"#3b3eac\", \"Fann\": \"#3366cc\", \"Imm\": \"#dc3912\", \"Defect Count\": \"#ff9900\", \"Sprint 5\": \"#109618\", \"Sprint 4\": \"#990099\", \"Sprint 1\": \"#0099c6\", \"Sprint 2\": \"#dd4477\", \"Sprint 3\": \"#66aa00\", \"AVG(age)\": \"#b82e2e\", \"Original Estimate\": \"#316395\", \"Actual Burnout\": \"#994499\"}}",
+                "position_json": "{\"CHART-0WkzNuDQGu\":{\"children\":[],\"id\":\"CHART-0WkzNuDQGu\",\"meta\":{\"chartId\":147,\"height\":45,\"sliceName\":\"GWB Defects Over Sprint\",\"uuid\":\"0ee3b935-d18b-4e6b-90e2-5027e8e367d9\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-5OFKQT2VG\"],\"type\":\"CHART\"},\"CHART-12LAzxQieN\":{\"children\":[],\"id\":\"CHART-12LAzxQieN\",\"meta\":{\"chartId\":146,\"height\":45,\"sliceName\":\"GWP Trends by Prority\",\"uuid\":\"bed0762f-561c-45ea-8136-5b5e3de1274f\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-5OFKQT2VG\"],\"type\":\"CHART\"},\"CHART-7Td6hCkmEX\":{\"children\":[],\"id\":\"CHART-7Td6hCkmEX\",\"meta\":{\"chartId\":161,\"height\":53,\"sliceName\":\"GWB Work Spread\",\"uuid\":\"927c838d-ae36-46f5-941f-31417974eea1\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\",\"ROW-nsjApt_Dq\"],\"type\":\"CHART\"},\"CHART-Cx5VWe41Ij\":{\"children\":[],\"id\":\"CHART-Cx5VWe41Ij\",\"meta\":{\"chartId\":163,\"height\":46,\"sliceName\":\"Issues tagged to Releases\",\"uuid\":\"9433f49e-b22c-48f3-a540-628adfd43532\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-kCKiMEwvA\",\"ROW-5-CFErKRi\"],\"type\":\"CHART\"},\"CHART-ErapXvjVhM\":{\"children\":[],\"id\":\"CHART-ErapXvjVhM\",\"meta\":{\"chartId\":170,\"height\":50,\"sliceName\":\"Defect Age Analysis\",\"uuid\":\"af442892-5e6a-4328-8182-cf5e76b68e50\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-hBQJ-LLi0\"],\"type\":\"CHART\"},\"CHART-GTzjSrwTZS\":{\"children\":[],\"id\":\"CHART-GTzjSrwTZS\",\"meta\":{\"chartId\":175,\"height\":51,\"sliceName\":\"GWB Defects Unplugged from release\",\"uuid\":\"4dcd2f7e-a348-4639-b763-7a95b7e3b85e\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-zOewbcw7c\"],\"type\":\"CHART\"},\"CHART-G_2gDa_Kg2\":{\"children\":[],\"id\":\"CHART-G_2gDa_Kg2\",\"meta\":{\"chartId\":145,\"height\":30,\"sliceName\":\"GWB Cross Program Defects Trends\",\"uuid\":\"bb287a4d-35b3-41eb-a81b-6ccbc3b28d0b\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-ci1xcL_Hk\"],\"type\":\"CHART\"},\"CHART-J_upe9nVEj\":{\"children\":[],\"id\":\"CHART-J_upe9nVEj\",\"meta\":{\"chartId\":158,\"height\":51,\"sliceName\":\"GWP Sprint Defect Heatmap\",\"uuid\":\"b8a3edf9-ac16-45c2-8879-c1dff3eec249\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-X1Ip6SbHv\"],\"type\":\"CHART\"},\"CHART-P1bDH9UBUr\":{\"children\":[],\"id\":\"CHART-P1bDH9UBUr\",\"meta\":{\"chartId\":174,\"height\":48,\"sliceName\":\"GWB Defects by release\",\"uuid\":\"fd910698-527b-44d0-ad68-0de70e0f7cd9\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-zOewbcw7c\"],\"type\":\"CHART\"},\"CHART-P5k3ofLFNL\":{\"children\":[],\"id\":\"CHART-P5k3ofLFNL\",\"meta\":{\"chartId\":167,\"height\":44,\"sliceName\":\"GWB Release Project Contribution\",\"uuid\":\"b3f92cc1-aa2a-43ae-a303-02f966c30f44\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\",\"ROW-phvnv3txL\"],\"type\":\"CHART\"},\"CHART-PjWsF5x0bx\":{\"children\":[],\"id\":\"CHART-PjWsF5x0bx\",\"meta\":{\"chartId\":154,\"height\":51,\"sliceName\":\"GWB Defects by Priority\",\"uuid\":\"bf463373-2e55-442d-88d6-abb884599a6e\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-KFFALbk3U\"],\"type\":\"CHART\"},\"CHART-TJjyPWL3u1\":{\"children\":[],\"id\":\"CHART-TJjyPWL3u1\",\"meta\":{\"chartId\":173,\"height\":52,\"sliceName\":\"GWB Defects Aging Slab\",\"uuid\":\"7fa0bebd-3425-454f-a5c2-1663a35edd11\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-hBQJ-LLi0\"],\"type\":\"CHART\"},\"CHART-UkSxh_lb8_\":{\"children\":[],\"id\":\"CHART-UkSxh_lb8_\",\"meta\":{\"chartId\":162,\"height\":36,\"sliceName\":\"Overall Defect Priority\",\"uuid\":\"123a2ba5-daff-4f9d-8885-9cb753e6f0b3\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-kCKiMEwvA\",\"ROW-wxJu3hQ0g\"],\"type\":\"CHART\"},\"CHART-ZyWWz8Vuey\":{\"children\":[],\"id\":\"CHART-ZyWWz8Vuey\",\"meta\":{\"chartId\":143,\"height\":49,\"sliceName\":\"GWP Project Leadership Board\",\"uuid\":\"2993de5a-8b8d-40e9-b2e7-60fdd8a9d6bb\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\",\"ROW-DKnD78Tuz\"],\"type\":\"CHART\"},\"CHART-bZY6_8wHRe\":{\"children\":[],\"id\":\"CHART-bZY6_8wHRe\",\"meta\":{\"chartId\":166,\"height\":64,\"sliceName\":\"GWB Work Cross Spread\",\"uuid\":\"7eaadc85-22e1-4411-9854-b8d74ba4af96\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\",\"ROW-FKMPkOKBC\"],\"type\":\"CHART\"},\"CHART-dCi11bIQU9\":{\"children\":[],\"id\":\"CHART-dCi11bIQU9\",\"meta\":{\"chartId\":165,\"height\":51,\"sliceName\":\"GWP Project Leadership Board v2\",\"uuid\":\"772467c0-f65e-44be-b7a0-9a0d5f2c17af\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\",\"ROW-DKnD78Tuz\"],\"type\":\"CHART\"},\"CHART-gLbdzo_0Bg\":{\"children\":[],\"id\":\"CHART-gLbdzo_0Bg\",\"meta\":{\"chartId\":151,\"height\":43,\"sliceName\":\"GWB Storyline\",\"uuid\":\"020b8626-dab7-4ccc-b0ce-82c96dd0c8b4\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\",\"ROW-phvnv3txL\"],\"type\":\"CHART\"},\"CHART-i2Uhl-mydz\":{\"children\":[],\"id\":\"CHART-i2Uhl-mydz\",\"meta\":{\"chartId\":150,\"height\":40,\"sliceName\":\"GWB Estimation Accuracy\",\"uuid\":\"ca987d7c-cdf4-4696-b0a0-f3c5e2a1eec2\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Z7481pffi\"],\"type\":\"CHART\"},\"CHART-k31LZ8yQ5h\":{\"children\":[],\"id\":\"CHART-k31LZ8yQ5h\",\"meta\":{\"chartId\":156,\"height\":47,\"sliceName\":\"GWB Top Performers\",\"uuid\":\"a81fa39a-d539-4391-9b1c-53d1ff64a5ce\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\",\"ROW-nsjApt_Dq\"],\"type\":\"CHART\"},\"CHART-shoycJAWPB\":{\"children\":[],\"id\":\"CHART-shoycJAWPB\",\"meta\":{\"chartId\":155,\"height\":53,\"sliceName\":\"GWP Defects by Status over Sprints\",\"uuid\":\"8ea1a9f1-38da-443d-98e8-9909e8fe1939\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-KFFALbk3U\"],\"type\":\"CHART\"},\"CHART-xQ4PH-ZFP5\":{\"children\":[],\"id\":\"CHART-xQ4PH-ZFP5\",\"meta\":{\"chartId\":169,\"height\":47,\"sliceName\":\"GWB Commulative Spread\",\"uuid\":\"45b2ef67-bde7-4bca-903d-b31ddabcdc16\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-kCKiMEwvA\",\"ROW-FRnCADgWA\"],\"type\":\"CHART\"},\"CHART-xQCZuKcw3q\":{\"children\":[],\"id\":\"CHART-xQCZuKcw3q\",\"meta\":{\"chartId\":160,\"height\":36,\"sliceName\":\"Overall Story Status\",\"uuid\":\"cdd3fb57-ea20-49e3-82ea-999fc14b20f8\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-kCKiMEwvA\",\"ROW-wxJu3hQ0g\"],\"type\":\"CHART\"},\"CHART-xtr9Hinear\":{\"children\":[],\"id\":\"CHART-xtr9Hinear\",\"meta\":{\"chartId\":172,\"height\":42,\"sliceName\":\"GWP  Cross Projects Trends v2\",\"uuid\":\"d6d36c5f-4555-4012-9cfd-a4a6b5248f4c\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-kCKiMEwvA\",\"ROW-QK69j8J5H\"],\"type\":\"CHART\"},\"CHART-zsCK3bE-pe\":{\"children\":[],\"id\":\"CHART-zsCK3bE-pe\",\"meta\":{\"chartId\":153,\"height\":36,\"sliceName\":\"GWB Context filter \",\"uuid\":\"f05664c5-f8e6-4e01-ab83-404efb6ea4c6\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-kCKiMEwvA\",\"ROW-wxJu3hQ0g\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-0SpCdPynrB\":{\"children\":[],\"id\":\"DIVIDER-0SpCdPynrB\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-TnUbW0rhoS\":{\"children\":[],\"id\":\"DIVIDER-TnUbW0rhoS\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"TABS-NNky5lEJ6o\",\"DIVIDER-0SpCdPynrB\",\"HEADER-l4IOh22SoQ\",\"ROW-ci1xcL_Hk\",\"ROW-zOewbcw7c\",\"ROW-5OFKQT2VG\",\"DIVIDER-TnUbW0rhoS\",\"ROW-KFFALbk3U\",\"ROW-hBQJ-LLi0\",\"ROW-X1Ip6SbHv\",\"HEADER-MlSttpdzk3\",\"ROW-Z7481pffi\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-MlSttpdzk3\":{\"children\":[],\"id\":\"HEADER-MlSttpdzk3\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Story Point Accuracy\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-l4IOh22SoQ\":{\"children\":[],\"id\":\"HEADER-l4IOh22SoQ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Defect Tracker\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-pyjWEffH7B\":{\"children\":[],\"id\":\"HEADER-pyjWEffH7B\",\"meta\":{\"background\":\"BACKGROUND_WHITE\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Leadership Board\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"GWB Dashboard\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-5-CFErKRi\":{\"children\":[\"CHART-Cx5VWe41Ij\"],\"id\":\"ROW-5-CFErKRi\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-kCKiMEwvA\"],\"type\":\"ROW\"},\"ROW-5OFKQT2VG\":{\"children\":[\"CHART-12LAzxQieN\",\"CHART-0WkzNuDQGu\"],\"id\":\"ROW-5OFKQT2VG\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-DKnD78Tuz\":{\"children\":[\"CHART-dCi11bIQU9\",\"CHART-ZyWWz8Vuey\"],\"id\":\"ROW-DKnD78Tuz\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\"],\"type\":\"ROW\"},\"ROW-FKMPkOKBC\":{\"children\":[\"CHART-bZY6_8wHRe\"],\"id\":\"ROW-FKMPkOKBC\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\"],\"type\":\"ROW\"},\"ROW-FRnCADgWA\":{\"children\":[\"CHART-xQ4PH-ZFP5\"],\"id\":\"ROW-FRnCADgWA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-kCKiMEwvA\"],\"type\":\"ROW\"},\"ROW-KFFALbk3U\":{\"children\":[\"CHART-PjWsF5x0bx\",\"CHART-shoycJAWPB\"],\"id\":\"ROW-KFFALbk3U\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-QK69j8J5H\":{\"children\":[\"CHART-xtr9Hinear\"],\"id\":\"ROW-QK69j8J5H\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-kCKiMEwvA\"],\"type\":\"ROW\"},\"ROW-X1Ip6SbHv\":{\"children\":[\"CHART-J_upe9nVEj\"],\"id\":\"ROW-X1Ip6SbHv\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-Z7481pffi\":{\"children\":[\"CHART-i2Uhl-mydz\"],\"id\":\"ROW-Z7481pffi\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-ci1xcL_Hk\":{\"children\":[\"CHART-G_2gDa_Kg2\"],\"id\":\"ROW-ci1xcL_Hk\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-hBQJ-LLi0\":{\"children\":[\"CHART-TJjyPWL3u1\",\"CHART-ErapXvjVhM\"],\"id\":\"ROW-hBQJ-LLi0\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-nsjApt_Dq\":{\"children\":[\"CHART-k31LZ8yQ5h\",\"CHART-7Td6hCkmEX\"],\"id\":\"ROW-nsjApt_Dq\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\"],\"type\":\"ROW\"},\"ROW-phvnv3txL\":{\"children\":[\"CHART-gLbdzo_0Bg\",\"CHART-P5k3ofLFNL\"],\"id\":\"ROW-phvnv3txL\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-dJ9k5aNRoC\"],\"type\":\"ROW\"},\"ROW-wxJu3hQ0g\":{\"children\":[\"CHART-zsCK3bE-pe\",\"CHART-xQCZuKcw3q\",\"CHART-UkSxh_lb8_\"],\"id\":\"ROW-wxJu3hQ0g\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\",\"TAB-kCKiMEwvA\"],\"type\":\"ROW\"},\"ROW-zOewbcw7c\":{\"children\":[\"CHART-P1bDH9UBUr\",\"CHART-GTzjSrwTZS\"],\"id\":\"ROW-zOewbcw7c\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"TAB-dJ9k5aNRoC\":{\"children\":[\"HEADER-pyjWEffH7B\",\"ROW-phvnv3txL\",\"ROW-DKnD78Tuz\",\"ROW-nsjApt_Dq\",\"ROW-FKMPkOKBC\"],\"id\":\"TAB-dJ9k5aNRoC\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Leadership Board\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\"],\"type\":\"TAB\"},\"TAB-kCKiMEwvA\":{\"children\":[\"ROW-wxJu3hQ0g\",\"ROW-QK69j8J5H\",\"ROW-5-CFErKRi\",\"ROW-FRnCADgWA\"],\"id\":\"TAB-kCKiMEwvA\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Top Line Board\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNky5lEJ6o\"],\"type\":\"TAB\"},\"TABS-NNky5lEJ6o\":{\"children\":[\"TAB-kCKiMEwvA\",\"TAB-dJ9k5aNRoC\"],\"id\":\"TABS-NNky5lEJ6o\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 143,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"echarts5Colors\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Issue Type\", \"Status\"], \"linear_color_scheme\": \"purple_white_green\", \"metric\": \"count\", \"row_limit\": 10000, \"slice_id\": 151, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"sunburst\", \"remote_id\": 143, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\", \"import_time\": 1618900702}",
+                            "slice_name": "GWP Project Leadership Board",
+                            "viz_type": "sunburst"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 145,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"d3Category10\", \"comparison_type\": \"values\", \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [], \"label_colors\": {\"Actual Burnout\": \"#666666\", \"Highest\": \"#1FA8C9\", \"Low\": \"#454E7C\", \"Medium\": \"#5AC189\", \"Original Estimate\": \"#FF7F44\"}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"cardinal\", \"metrics\": [{\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"Issue key\", \"description\": null, \"expression\": \"\", \"filterable\": true, \"groupby\": true, \"id\": 1162, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"TEXT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Defect Count\", \"optionName\": \"metric_mguu9yvlmp_n2sdspmfbre\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"slice_id\": 145, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 145, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Cross Program Defects Trends",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 146,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"d3Category10\", \"comparison_type\": \"values\", \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Priority\"], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"metrics\": [\"count\"], \"order_desc\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"slice_id\": 146, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"compare\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 146, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWP Trends by Prority",
+                            "viz_type": "compare"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 147,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"d3Category10\", \"columns\": [\"Priority\"], \"contribution\": false, \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Sprint\"], \"label_colors\": {\"Abdul Halim bin Haron\": \"#D1C6BC\", \"Agu Casmir\": \"#E04355\", \"Ang Peng Siong\": \"#A868B7\", \"Arun Kumar M\": \"#FCC700\", \"Chan Chun Sing\": \"#1FA8C9\", \"Chan Heng Chee\": \"#666666\", \"Chew Choon Seng\": \"#A38F79\", \"Chia Kiah Hong Steve\": \"#FEC0A1\", \"Chia Thye Poh\": \"#B2B2B2\", \"Chiam See Tong\": \"#8FD3E4\", \"Completed SP\": \"#FF7F44\", \"Daniel Bennett\": \"#B2B2B2\", \"Defect Count\": \"#9EE5E5\", \"Desmond Kuek\": \"#ACE1C4\", \"Fandi Ahmad\": \"#FEC0A1\", \"Fann Wong\": \"#3CCCCB\", \"Geh Min\": \"#FF7F44\", \"Gerard Ee\": \"#666666\", \"Goh Chok Tong\": \"#9EE5E5\", \"Goh Keng Swee\": \"#454E7C\", \"Goh Tat Chuan\": \"#FCC700\", \"Han Sai Por\": \"#ACE1C4\", \"Hazlina Halim\": \"#EFA1AA\", \"Heng Swee Keat\": \"#E04355\", \"Highest\": \"#5AC189\", \"Ho Ching\": \"#B2B2B2\", \"Hoi Kim Heng\": \"#3CCCCB\", \"Hon Sui Sen\": \"#8FD3E4\", \"Imm\": \"#9EE5E5\", \"Indranee Rajah\": \"#A1A6BD\", \"Ivan Heng\": \"#FCC700\", \"Jeanette Aw\": \"#EFA1AA\", \"Jiang Yanmei\": \"#5AC189\", \"Jing Jun Hong\": \"#FDE380\", \"Joanna Dong\": \"#A38F79\", \"Joseph\": \"#A1A6BD\", \"Joshua Benjamin Jeyaretnam\": \"#8FD3E4\", \"Kam Ning\": \"#A868B7\", \"Keith Goh\": \"#D3B3DA\", \"Khaw Boon Wan\": \"#1FA8C9\", \"Kit Chan\": \"#454E7C\", \"Low\": \"#454E7C\", \"Lye Fong\": \"#FF7F44\", \"Mavis Hee\": \"#D3B3DA\", \"Medium\": \"#1FA8C9\", \"Nicholas Chia\": \"#3CCCCB\", \"Philip Jeyaretnam\": \"#FDE380\", \"Rebecca Lim\": \"#A1A6BD\", \"Rohan Gunaratna\": \"#FEC0A1\", \"S Dhanabalan\": \"#EFA1AA\", \"Sammie\": \"#A868B7\", \"Sean\": \"#ACE1C4\", \"Shunmugam Jayakumar\": \"#A38F79\", \"Taufik Batisah\": \"#D3B3DA\", \"Terry\": \"#E04355\", \"Tharman Shanmugaratnam\": \"#5AC189\", \"Total SP\": \"#666666\", \"Vivian Balakrishnan\": \"#FDE380\", \"Yusof bin Ishak\": \"#D1C6BC\"}, \"metrics\": [\"count\"], \"order_bars\": true, \"order_desc\": false, \"reduce_x_ticks\": false, \"row_limit\": 10000, \"show_controls\": true, \"slice_id\": 147, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": [], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 147, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Defects Over Sprint",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 150,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"label_colors\": {}, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Original Estimate\", \"optionName\": \"metric_0mxa0mlfqgr_ycfb5atrbg\", \"sqlExpression\": \"SUM(\\\"Original Estimate\\\")\"}, \"metric_2\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Actual Burnout\", \"optionName\": \"metric_k5fjluflps_j877fs8seb\", \"sqlExpression\": \"SUM(\\\"Time Spent\\\")\"}, \"slice_id\": 160, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dual_line\", \"x_axis_format\": \"smart_date\", \"y_axis_2_bounds\": [null, null], \"y_axis_2_format\": \"SMART_NUMBER\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 150, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\", \"import_time\": 1618900702}",
+                            "slice_name": "GWB Estimation Accuracy",
+                            "viz_type": "dual_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 151,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Project name\"], \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Story Points\", \"optionName\": \"metric_mx8hlrq4pb_yfjc8khx6cb\", \"sqlExpression\": \"SUM(\\\"Custom field _Story Points_\\\")\"}], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": \"15\", \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 151, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\", \"import_time\": 1618900702}",
+                            "slice_name": "GWB Storyline",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 153,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"33__table\", \"date_filter\": true, \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"Project name\", \"key\": \"HdheWBwM-\", \"multiple\": true, \"searchAllOptions\": true}], \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"slice_id\": 163, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 153, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\", \"import_time\": 1618900702}",
+                            "slice_name": "GWB Context filter ",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 154,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"28__table\", \"date_time_format\": \"smart_date\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Priority\"], \"label_colors\": {\"Abdul\": \"#FEC0A1\", \"Actual Burnout\": \"#ACE1C4\", \"Agu\": \"#EFA1AA\", \"Ang\": \"#D3B3DA\", \"Arun\": \"#D3B3DA\", \"Chan\": \"#5AC189\", \"Chew\": \"#A868B7\", \"Chia\": \"#E04355\", \"Chiam\": \"#8FD3E4\", \"Daniel\": \"#B2B2B2\", \"Desmond\": \"#8FD3E4\", \"Fandi\": \"#454E7C\", \"Fann\": \"#A38F79\", \"GWB_ACC_SRV\": \"#FF7F44\", \"GWB_MOBILE\": \"#666666\", \"GWB_TRADE\": \"#E04355\", \"Geh\": \"#FEC0A1\", \"Gerard\": \"#B2B2B2\", \"Goh\": \"#ACE1C4\", \"Han\": \"#D1C6BC\", \"Hazlina\": \"#B2B2B2\", \"Heng\": \"#9EE5E5\", \"Highest\": \"#5AC189\", \"Ho\": \"#A38F79\", \"Hoi\": \"#9EE5E5\", \"Hon\": \"#3CCCCB\", \"Imm\": \"#8FD3E4\", \"Indranee\": \"#E04355\", \"Ivan\": \"#FF7F44\", \"Jeanette\": \"#A868B7\", \"Jiang\": \"#3CCCCB\", \"Jing\": \"#1FA8C9\", \"Joanna\": \"#FCC700\", \"Joseph\": \"#5AC189\", \"Joshua\": \"#1FA8C9\", \"Kam\": \"#FF7F44\", \"Keith\": \"#FDE380\", \"Khaw\": \"#D1C6BC\", \"Kit\": \"#666666\", \"Low\": \"#454E7C\", \"Lye\": \"#666666\", \"Mavis\": \"#A38F79\", \"Medium\": \"#1FA8C9\", \"Nicholas\": \"#454E7C\", \"Original Estimate\": \"#A1A6BD\", \"Philip\": \"#FCC700\", \"Rebecca\": \"#ACE1C4\", \"Rohan\": \"#3CCCCB\", \"S\": \"#A1A6BD\", \"Sammie\": \"#A1A6BD\", \"Sean\": \"#FCC700\", \"Shunmugam\": \"#EFA1AA\", \"Taufik\": \"#FEC0A1\", \"Terry\": \"#FDE380\", \"Tharman\": \"#EFA1AA\", \"Vivian\": \"#FDE380\", \"Yusof\": \"#A868B7\"}, \"limit\": 100, \"metrics\": [\"count\"], \"number_format\": \"SMART_NUMBER\", \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"slice_id\": 154, \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"rose\", \"remote_id\": 154, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Defects by Priority",
+                            "viz_type": "rose"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 155,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"color_scheme\": \"bnbColors\", \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Sprint\", \"Status\"], \"linear_color_scheme\": \"superset_seq_1\", \"metric\": \"count\", \"row_limit\": 10000, \"slice_id\": 155, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"sunburst\", \"remote_id\": 155, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWP Defects by Status over Sprints",
+                            "viz_type": "sunburst"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 156,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"googleCategory20c\", \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"label_colors\": {\"1.DESIGN\": \"#ff9900\", \"2.TODO\": \"#990099\", \"3.INPROGRESS\": \"#3366cc\", \"4.DONE\": \"#0099c6\", \"5.SIT\": \"#dc3912\", \"6.UAT\": \"#109618\", \"AVG(age)\": \"#b82e2e\", \"Abdul\": \"#0099c6\", \"Actual Burnout\": \"#994499\", \"Age Groups\": \"#3366cc\", \"Agu\": \"#66aa00\", \"Agu Casmir\": \"#66aa00\", \"Ang\": \"#316395\", \"Arun\": \"#316395\", \"Average Closure\": \"#e67300\", \"BUG\": \"#994499\", \"Chan\": \"#e67300\", \"Chan Chun Sing\": \"#109618\", \"Chew\": \"#5574a6\", \"Chia\": \"#651067\", \"Chia Kiah Hong Steve\": \"#ff9900\", \"Chiam\": \"#ff9900\", \"Chiam See Tong\": \"#3366cc\", \"Commited\": \"#3366cc\", \"Completed SP\": \"#8b0707\", \"DESIGN\": \"#dd4477\", \"DONE\": \"#990099\", \"Daniel\": \"#dd4477\", \"Defect Count\": \"#ff9900\", \"Desmond\": \"#ff9900\", \"Done\": \"#dc3912\", \"Fandi\": \"#6633cc\", \"Fann\": \"#3366cc\", \"GWB_ACC_SRV\": \"#651067\", \"GWB_ACC_SRV,BUG\": \"#651067\", \"GWB_ACC_SRV,Story\": \"#329262\", \"GWB_MOBILE\": \"#329262\", \"GWB_MOBILE,BUG\": \"#e67300\", \"GWB_MOBILE,Story\": \"#8b0707\", \"GWB_TRADE\": \"#5574a6\", \"GWB_TRADE,BUG\": \"#aaaa11\", \"GWB_TRADE,Story\": \"#6633cc\", \"Gerard\": \"#dd4477\", \"Goh\": \"#990099\", \"Goh Tat Chuan\": \"#66aa00\", \"Han\": \"#22aa99\", \"Hazlina\": \"#ff9900\", \"Hazlina Halim\": \"#990099\", \"Heng\": \"#994499\", \"Heng Swee Keat\": \"#dd4477\", \"Highest\": \"#ff9900\", \"Ho\": \"#dc3912\", \"Hoi\": \"#994499\", \"Hoi Kim Heng\": \"#dc3912\", \"Hon\": \"#3366cc\", \"INPROGRESS\": \"#b82e2e\", \"Imm\": \"#dc3912\", \"In Progress\": \"#ff9900\", \"Indranee\": \"#329262\", \"Ivan\": \"#8b0707\", \"Jeanette\": \"#3b3eac\", \"Jiang\": \"#3366cc\", \"Jing\": \"#aaaa11\", \"Jing Jun Hong\": \"#0099c6\", \"Joanna\": \"#5574a6\", \"Joseph\": \"#dc3912\", \"Joshua\": \"#aaaa11\", \"Kam\": \"#e67300\", \"Kam Ning\": \"#b82e2e\", \"Keith\": \"#b82e2e\", \"Khaw\": \"#22aa99\", \"Kit\": \"#651067\", \"Low\": \"#dc3912\", \"Lye\": \"#8b0707\", \"Lye Fong\": \"#dd4477\", \"Mavis\": \"#dc3912\", \"Medium\": \"#3366cc\", \"Nicholas\": \"#6633cc\", \"Nicholas Chia\": \"#3b3eac\", \"Original Estimate\": \"#316395\", \"Pending\": \"#aaaa11\", \"Philip\": \"#329262\", \"Rebecca\": \"#990099\", \"Rohan\": \"#3b3eac\", \"S\": \"#109618\", \"SIT\": \"#0099c6\", \"SP Committed\": \"#316395\", \"SP Total\": \"#994499\", \"SPs Commited\": \"#22aa99\", \"Sammie\": \"#109618\", \"Sean\": \"#5574a6\", \"Shunmugam\": \"#109618\", \"Shunmugam Jayakumar\": \"#b82e2e\", \"Sprint 1\": \"#0099c6\", \"Sprint 2\": \"#dd4477\", \"Sprint 3\": \"#66aa00\", \"Sprint 4\": \"#990099\", \"Sprint 5\": \"#109618\", \"Story\": \"#22aa99\", \"TODO\": \"#66aa00\", \"Taufik\": \"#0099c6\", \"Terry\": \"#990099\", \"Tharman\": \"#66aa00\", \"Total SP\": \"#6633cc\", \"UAT\": \"#109618\", \"Vivian\": \"#b82e2e\", \"Yusof\": \"#3b3eac\", \"root\": \"#316395\"}, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"closedSP\", \"description\": \"CLOSEDSP\", \"expression\": \"(case when \\\"Status\\\" like 'DONE' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'PROD' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'SIT' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'UAT' then  \\\"Custom field _Story Points_\\\" else 0 end )\\n\", \"filterable\": true, \"groupby\": true, \"id\": 855, \"is_dttm\": false, \"python_date_format\": null, \"type\": null, \"verbose_name\": \"CLOSEDSP\"}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(closedSP)\", \"optionName\": \"metric_2kevso25n7r_jwsp986pjw\", \"sqlExpression\": null}, \"rotation\": \"flat\", \"row_limit\": 50, \"series\": \"assigneesorted\", \"size_from\": 10, \"size_to\": 70, \"slice_id\": 156, \"sort_by_metric\": false, \"time_range\": \"Last quarter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"word_cloud\", \"remote_id\": 156, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Top Performers",
+                            "viz_type": "word_cloud"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 158,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"Sprint\", \"all_columns_y\": \"Priority\", \"bottom_margin\": \"auto\", \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"33__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"oranges\", \"metric\": \"count\", \"normalize_across\": \"heatmap\", \"row_limit\": 10000, \"show_perc\": true, \"slice_id\": 168, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"remote_id\": 158, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\", \"import_time\": 1618900702}",
+                            "slice_name": "GWP Sprint Defect Heatmap",
+                            "viz_type": "heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 160,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"googleCategory20c\", \"datasource\": \"28__table\", \"date_format\": \"smart_date\", \"donut\": true, \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Status\"], \"innerRadius\": 41, \"label_line\": true, \"label_type\": \"key\", \"labels_outside\": true, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"metric\": \"count\", \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 65, \"row_limit\": null, \"show_labels\": true, \"show_labels_threshold\": 2, \"show_legend\": false, \"slice_id\": 160, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 160, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "Overall Story Status",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 161,
+                            "params": "{\"adhoc_filters\": [], \"columns\": [\"Project name\"], \"datasource\": \"28__table\", \"date_format\": \"smart_date\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Assignee\"], \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"closedSP\", \"description\": \"CLOSEDSP\", \"expression\": \"(case when \\\"Status\\\" like 'DONE' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'PROD' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'SIT' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'UAT' then  \\\"Custom field _Story Points_\\\" else 0 end )\\n\", \"filterable\": true, \"groupby\": true, \"id\": 855, \"is_dttm\": false, \"python_date_format\": null, \"type\": null, \"verbose_name\": \"CLOSEDSP\"}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Done\", \"optionName\": \"metric_6ae95az8ozd_857aezafzca\", \"sqlExpression\": null}], \"number_format\": \"SMART_NUMBER\", \"order_desc\": true, \"pandas_aggfunc\": \"sum\", \"pivot_margins\": true, \"row_limit\": 50, \"slice_id\": 161, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pivot_table\", \"remote_id\": 161, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Work Spread",
+                            "viz_type": "pivot_table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 162,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"googleCategory20c\", \"datasource\": \"28__table\", \"date_format\": \"smart_date\", \"donut\": true, \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Priority\"], \"innerRadius\": 41, \"label_line\": true, \"label_type\": \"key\", \"labels_outside\": true, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"metric\": \"count\", \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 65, \"row_limit\": null, \"show_labels\": true, \"show_labels_threshold\": 2, \"show_legend\": false, \"slice_id\": 162, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 162, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "Overall Defect Priority",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 163,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"Fix Version/s\", \"all_columns_y\": \"statussorted\", \"bottom_margin\": 100, \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"left_margin\": 75, \"linear_color_scheme\": \"schemePuBuGn\", \"metric\": \"count\", \"normalize_across\": \"heatmap\", \"normalized\": false, \"row_limit\": null, \"show_legend\": true, \"show_perc\": false, \"show_values\": true, \"slice_id\": 163, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"Last quarter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"remote_id\": 163, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "Issues tagged to Releases",
+                            "viz_type": "heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 165,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"googleCategory20c\", \"comparison_type\": \"values\", \"datasource\": \"28__table\", \"date_time_format\": \"smart_date\", \"equal_date_size\": true, \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Project name\", \"Issue Type\"], \"label_colors\": {\"Actual Burnout\": \"#666666\", \"Highest\": \"#1FA8C9\", \"Low\": \"#454E7C\", \"Medium\": \"#5AC189\", \"Original Estimate\": \"#FF7F44\"}, \"limit\": 100, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"closedSP\", \"description\": \"CLOSEDSP\", \"expression\": \"(case when \\\"Status\\\" like 'DONE' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'PROD' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'SIT' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'UAT' then  \\\"Custom field _Story Points_\\\" else 0 end )\\n\", \"filterable\": true, \"groupby\": true, \"id\": 855, \"is_dttm\": false, \"python_date_format\": null, \"type\": null, \"verbose_name\": \"CLOSEDSP\"}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Completed SP\", \"optionName\": \"metric_wl2az2ow9r_przui94lho\", \"sqlExpression\": null}], \"number_format\": \"SMART_NUMBER\", \"order_desc\": true, \"partition_limit\": \"5\", \"partition_threshold\": \"0.05\", \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"slice_id\": 165, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"time_series_option\": \"not_time\", \"url_params\": {}, \"viz_type\": \"partition\", \"remote_id\": 165, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWP Project Leadership Board v2",
+                            "viz_type": "partition"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 166,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Assignee\", \"Project name\"], \"label_colors\": {}, \"metric\": \"count\", \"row_limit\": 50, \"slice_id\": 166, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"sankey\", \"remote_id\": 166, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Work Cross Spread",
+                            "viz_type": "sankey"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 167,
+                            "params": "{\"adhoc_filters\": [], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"Project name\"], \"contribution\": false, \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Fix Version/s\"], \"label_colors\": {\"Abdul\": \"#FEC0A1\", \"Agu\": \"#EFA1AA\", \"Ang\": \"#D3B3DA\", \"Arun\": \"#D3B3DA\", \"Chan\": \"#5AC189\", \"Chew\": \"#A868B7\", \"Chia\": \"#E04355\", \"Chiam\": \"#8FD3E4\", \"Daniel\": \"#B2B2B2\", \"Desmond\": \"#8FD3E4\", \"Fandi\": \"#454E7C\", \"Fann\": \"#A38F79\", \"GWB_ACC_SRV\": \"#3CCCCB\", \"GWB_MOBILE\": \"#666666\", \"GWB_TRADE\": \"#FCC700\", \"Gerard\": \"#B2B2B2\", \"Goh\": \"#ACE1C4\", \"Han\": \"#D1C6BC\", \"Heng\": \"#9EE5E5\", \"Highest\": \"#5AC189\", \"Ho\": \"#A38F79\", \"Hoi\": \"#9EE5E5\", \"Hon\": \"#A868B7\", \"Imm\": \"#8FD3E4\", \"Indranee\": \"#E04355\", \"Ivan\": \"#FF7F44\", \"Jeanette\": \"#A868B7\", \"Jiang\": \"#3CCCCB\", \"Jing\": \"#1FA8C9\", \"Joanna\": \"#FCC700\", \"Joseph\": \"#5AC189\", \"Joshua\": \"#1FA8C9\", \"Kam\": \"#FF7F44\", \"Keith\": \"#FDE380\", \"Khaw\": \"#D1C6BC\", \"Kit\": \"#666666\", \"Low\": \"#454E7C\", \"Lye\": \"#666666\", \"Mavis\": \"#A38F79\", \"Medium\": \"#1FA8C9\", \"Nicholas\": \"#454E7C\", \"Philip\": \"#FCC700\", \"Rebecca\": \"#ACE1C4\", \"Rohan\": \"#3CCCCB\", \"S\": \"#A1A6BD\", \"Sammie\": \"#A1A6BD\", \"Sean\": \"#FF7F44\", \"Taufik\": \"#FEC0A1\", \"Tharman\": \"#EFA1AA\", \"Vivian\": \"#FDE380\", \"Yusof\": \"#E04355\"}, \"metrics\": [\"count\"], \"order_bars\": true, \"order_desc\": true, \"row_limit\": 10000, \"show_bar_value\": true, \"show_controls\": true, \"show_legend\": true, \"slice_id\": 167, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": [], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 167, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Release Project Contribution",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 169,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"googleCategory20c\", \"comparison_type\": \"values\", \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"statussorted\"], \"label_colors\": {\"AVG(age)\": \"#b82e2e\", \"Abdul\": \"#0099c6\", \"Actual Burnout\": \"#994499\", \"Age Groups\": \"#3366cc\", \"Agu\": \"#66aa00\", \"Ang\": \"#316395\", \"Arun\": \"#316395\", \"Average Closure\": \"#e67300\", \"BUG\": \"#994499\", \"Chan\": \"#e67300\", \"Chan Chun Sing\": \"#109618\", \"Chew\": \"#5574a6\", \"Chia\": \"#651067\", \"Chia Kiah Hong Steve\": \"#ff9900\", \"Chiam\": \"#ff9900\", \"Chiam See Tong\": \"#3366cc\", \"Commited\": \"#3366cc\", \"Completed SP\": \"#8b0707\", \"DESIGN\": \"#dd4477\", \"DONE\": \"#990099\", \"Daniel\": \"#dd4477\", \"Defect Count\": \"#ff9900\", \"Desmond\": \"#ff9900\", \"Done\": \"#dc3912\", \"Fandi\": \"#6633cc\", \"Fann\": \"#3366cc\", \"GWB_ACC_SRV\": \"#651067\", \"GWB_ACC_SRV,BUG\": \"#651067\", \"GWB_ACC_SRV,Story\": \"#329262\", \"GWB_MOBILE\": \"#329262\", \"GWB_MOBILE,BUG\": \"#e67300\", \"GWB_MOBILE,Story\": \"#8b0707\", \"GWB_TRADE\": \"#5574a6\", \"GWB_TRADE,BUG\": \"#aaaa11\", \"GWB_TRADE,Story\": \"#6633cc\", \"Gerard\": \"#dd4477\", \"Goh\": \"#990099\", \"Goh Tat Chuan\": \"#66aa00\", \"Han\": \"#22aa99\", \"Hazlina\": \"#ff9900\", \"Hazlina Halim\": \"#990099\", \"Heng\": \"#994499\", \"Heng Swee Keat\": \"#dd4477\", \"Highest\": \"#ff9900\", \"Ho\": \"#dc3912\", \"Hoi\": \"#994499\", \"Hoi Kim Heng\": \"#dc3912\", \"Hon\": \"#3366cc\", \"INPROGRESS\": \"#b82e2e\", \"Imm\": \"#dc3912\", \"In Progress\": \"#ff9900\", \"Indranee\": \"#329262\", \"Ivan\": \"#8b0707\", \"Jeanette\": \"#3b3eac\", \"Jiang\": \"#3366cc\", \"Jing\": \"#aaaa11\", \"Jing Jun Hong\": \"#0099c6\", \"Joanna\": \"#5574a6\", \"Joseph\": \"#dc3912\", \"Joshua\": \"#aaaa11\", \"Kam\": \"#e67300\", \"Kam Ning\": \"#b82e2e\", \"Keith\": \"#b82e2e\", \"Khaw\": \"#22aa99\", \"Kit\": \"#651067\", \"Low\": \"#dc3912\", \"Lye\": \"#8b0707\", \"Mavis\": \"#dc3912\", \"Medium\": \"#3366cc\", \"Nicholas\": \"#6633cc\", \"Nicholas Chia\": \"#3b3eac\", \"Original Estimate\": \"#316395\", \"Pending\": \"#aaaa11\", \"Philip\": \"#329262\", \"Rebecca\": \"#990099\", \"Rohan\": \"#3b3eac\", \"S\": \"#109618\", \"SIT\": \"#0099c6\", \"SP Committed\": \"#316395\", \"SP Total\": \"#994499\", \"SPs Commited\": \"#22aa99\", \"Sammie\": \"#109618\", \"Sean\": \"#5574a6\", \"Shunmugam\": \"#109618\", \"Sprint 1\": \"#0099c6\", \"Sprint 2\": \"#dd4477\", \"Sprint 3\": \"#66aa00\", \"Sprint 4\": \"#990099\", \"Sprint 5\": \"#109618\", \"Story\": \"#22aa99\", \"TODO\": \"#66aa00\", \"Taufik\": \"#0099c6\", \"Terry\": \"#990099\", \"Tharman\": \"#66aa00\", \"Total SP\": \"#6633cc\", \"UAT\": \"#109618\", \"Vivian\": \"#b82e2e\", \"Yusof\": \"#3b3eac\", \"root\": \"#316395\"}, \"limit\": 500, \"line_interpolation\": \"cardinal\", \"metrics\": [\"count\"], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"slice_id\": 169, \"stacked_style\": \"stack\", \"time_grain_sqla\": \"P1W\", \"time_range\": \"Last quarter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 169, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Commulative Spread",
+                            "viz_type": "area"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 170,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [\"Issue key\", \"age\"], \"color_pn\": true, \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [], \"metrics\": [\"count\"], \"order_by_cols\": [\"[\\\"age\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 170, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "Defect Age Analysis",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 172,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"googleCategory20c\", \"comparison_type\": \"values\", \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [], \"label_colors\": {\"AVG(age)\": \"#b82e2e\", \"Abdul\": \"#0099c6\", \"Actual Burnout\": \"#994499\", \"Agu\": \"#66aa00\", \"Ang\": \"#316395\", \"Arun\": \"#316395\", \"Average Closure\": \"#e67300\", \"BUG\": \"#994499\", \"Chan\": \"#e67300\", \"Chan Chun Sing\": \"#109618\", \"Chew\": \"#5574a6\", \"Chia\": \"#651067\", \"Chia Kiah Hong Steve\": \"#ff9900\", \"Chiam\": \"#ff9900\", \"Chiam See Tong\": \"#3366cc\", \"Commited\": \"#3366cc\", \"Completed SP\": \"#8b0707\", \"DESIGN\": \"#dd4477\", \"DONE\": \"#990099\", \"Daniel\": \"#dd4477\", \"Defect Count\": \"#ff9900\", \"Desmond\": \"#ff9900\", \"Done\": \"#dc3912\", \"Fandi\": \"#6633cc\", \"Fann\": \"#3366cc\", \"GWB_ACC_SRV\": \"#651067\", \"GWB_ACC_SRV,BUG\": \"#651067\", \"GWB_ACC_SRV,Story\": \"#329262\", \"GWB_MOBILE\": \"#329262\", \"GWB_MOBILE,BUG\": \"#e67300\", \"GWB_MOBILE,Story\": \"#8b0707\", \"GWB_TRADE\": \"#5574a6\", \"GWB_TRADE,BUG\": \"#aaaa11\", \"GWB_TRADE,Story\": \"#6633cc\", \"Gerard\": \"#dd4477\", \"Goh\": \"#990099\", \"Goh Tat Chuan\": \"#66aa00\", \"Han\": \"#22aa99\", \"Hazlina Halim\": \"#990099\", \"Heng\": \"#994499\", \"Heng Swee Keat\": \"#dd4477\", \"Highest\": \"#ff9900\", \"Ho\": \"#dc3912\", \"Hoi\": \"#994499\", \"Hon\": \"#3366cc\", \"INPROGRESS\": \"#b82e2e\", \"Imm\": \"#dc3912\", \"In Progress\": \"#ff9900\", \"Indranee\": \"#329262\", \"Ivan\": \"#8b0707\", \"Jeanette\": \"#3b3eac\", \"Jiang\": \"#3366cc\", \"Jing\": \"#aaaa11\", \"Jing Jun Hong\": \"#0099c6\", \"Joanna\": \"#5574a6\", \"Joseph\": \"#dc3912\", \"Joshua\": \"#aaaa11\", \"Kam\": \"#e67300\", \"Kam Ning\": \"#b82e2e\", \"Keith\": \"#b82e2e\", \"Khaw\": \"#22aa99\", \"Kit\": \"#651067\", \"Low\": \"#dc3912\", \"Lye\": \"#8b0707\", \"Mavis\": \"#dc3912\", \"Medium\": \"#3366cc\", \"Nicholas\": \"#6633cc\", \"Nicholas Chia\": \"#3b3eac\", \"Original Estimate\": \"#316395\", \"Pending\": \"#aaaa11\", \"Philip\": \"#329262\", \"Rebecca\": \"#990099\", \"Rohan\": \"#3b3eac\", \"S\": \"#109618\", \"SIT\": \"#0099c6\", \"SP Committed\": \"#316395\", \"SP Total\": \"#994499\", \"SPs Commited\": \"#22aa99\", \"Sammie\": \"#109618\", \"Sean\": \"#5574a6\", \"Sprint 1\": \"#0099c6\", \"Sprint 2\": \"#dd4477\", \"Sprint 3\": \"#66aa00\", \"Sprint 4\": \"#990099\", \"Sprint 5\": \"#109618\", \"Story\": \"#22aa99\", \"TODO\": \"#66aa00\", \"Taufik\": \"#0099c6\", \"Tharman\": \"#66aa00\", \"Total SP\": \"#6633cc\", \"UAT\": \"#109618\", \"Vivian\": \"#b82e2e\", \"Yusof\": \"#3b3eac\", \"root\": \"#316395\"}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"cardinal\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Commited\", \"optionName\": \"metric_hys743ekjz9_u9gtpb9gyg\", \"sqlExpression\": \"SUM(\\\"Custom field _Story Points_\\\")\"}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"PendingSP\", \"description\": \"PendingSP\", \"expression\": \"(case when \\\"Status\\\" like 'INPROGRESS' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'DESIGN' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'TODO' then  \\\"Custom field _Story Points_\\\"  else 0 end )\", \"filterable\": true, \"groupby\": true, \"id\": 858, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"NUMERIC\", \"verbose_name\": \"PendingSP\"}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"In Progress\", \"optionName\": \"metric_j1jofmfknns_wmjl84lxeb\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"closedSP\", \"description\": \"CLOSEDSP\", \"expression\": \"(case when \\\"Status\\\" like 'DONE' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'PROD' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'SIT' then  \\\"Custom field _Story Points_\\\" when \\\"Status\\\" like 'UAT' then  \\\"Custom field _Story Points_\\\" else 0 end )\\n\", \"filterable\": true, \"groupby\": true, \"id\": 855, \"is_dttm\": false, \"python_date_format\": null, \"type\": null, \"verbose_name\": \"CLOSEDSP\"}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Done\", \"optionName\": \"metric_vwbbf2po8l_fdecqvtxy8\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"show_legend\": true, \"slice_id\": 172, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 172, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWP  Cross Projects Trends v2",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 173,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"googleCategory20c\", \"columns\": [], \"contribution\": false, \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"agegroup\"], \"label_colors\": {\"AVG(age)\": \"#b82e2e\", \"Abdul\": \"#0099c6\", \"Actual Burnout\": \"#994499\", \"Age Groups\": \"#3366cc\", \"Agu\": \"#66aa00\", \"Ang\": \"#316395\", \"Arun\": \"#316395\", \"Average Closure\": \"#e67300\", \"BUG\": \"#994499\", \"Chan\": \"#e67300\", \"Chan Chun Sing\": \"#109618\", \"Chew\": \"#5574a6\", \"Chia\": \"#651067\", \"Chia Kiah Hong Steve\": \"#ff9900\", \"Chiam\": \"#ff9900\", \"Chiam See Tong\": \"#3366cc\", \"Commited\": \"#3366cc\", \"Completed SP\": \"#8b0707\", \"DESIGN\": \"#dd4477\", \"DONE\": \"#990099\", \"Daniel\": \"#dd4477\", \"Defect Count\": \"#ff9900\", \"Desmond\": \"#ff9900\", \"Done\": \"#dc3912\", \"Fandi\": \"#6633cc\", \"Fann\": \"#3366cc\", \"GWB_ACC_SRV\": \"#651067\", \"GWB_ACC_SRV,BUG\": \"#651067\", \"GWB_ACC_SRV,Story\": \"#329262\", \"GWB_MOBILE\": \"#329262\", \"GWB_MOBILE,BUG\": \"#e67300\", \"GWB_MOBILE,Story\": \"#8b0707\", \"GWB_TRADE\": \"#5574a6\", \"GWB_TRADE,BUG\": \"#aaaa11\", \"GWB_TRADE,Story\": \"#6633cc\", \"Gerard\": \"#dd4477\", \"Goh\": \"#990099\", \"Goh Tat Chuan\": \"#66aa00\", \"Han\": \"#22aa99\", \"Hazlina\": \"#ff9900\", \"Hazlina Halim\": \"#990099\", \"Heng\": \"#994499\", \"Heng Swee Keat\": \"#dd4477\", \"Highest\": \"#ff9900\", \"Ho\": \"#dc3912\", \"Hoi\": \"#994499\", \"Hoi Kim Heng\": \"#dc3912\", \"Hon\": \"#3366cc\", \"INPROGRESS\": \"#b82e2e\", \"Imm\": \"#dc3912\", \"In Progress\": \"#ff9900\", \"Indranee\": \"#329262\", \"Ivan\": \"#8b0707\", \"Jeanette\": \"#3b3eac\", \"Jiang\": \"#3366cc\", \"Jing\": \"#aaaa11\", \"Jing Jun Hong\": \"#0099c6\", \"Joanna\": \"#5574a6\", \"Joseph\": \"#dc3912\", \"Joshua\": \"#aaaa11\", \"Kam\": \"#e67300\", \"Kam Ning\": \"#b82e2e\", \"Keith\": \"#b82e2e\", \"Khaw\": \"#22aa99\", \"Kit\": \"#651067\", \"Low\": \"#dc3912\", \"Lye\": \"#8b0707\", \"Mavis\": \"#dc3912\", \"Medium\": \"#3366cc\", \"Nicholas\": \"#6633cc\", \"Nicholas Chia\": \"#3b3eac\", \"Original Estimate\": \"#316395\", \"Pending\": \"#aaaa11\", \"Philip\": \"#329262\", \"Rebecca\": \"#990099\", \"Rohan\": \"#3b3eac\", \"S\": \"#109618\", \"SIT\": \"#0099c6\", \"SP Committed\": \"#316395\", \"SP Total\": \"#994499\", \"SPs Commited\": \"#22aa99\", \"Sammie\": \"#109618\", \"Sean\": \"#5574a6\", \"Shunmugam\": \"#109618\", \"Sprint 1\": \"#0099c6\", \"Sprint 2\": \"#dd4477\", \"Sprint 3\": \"#66aa00\", \"Sprint 4\": \"#990099\", \"Sprint 5\": \"#109618\", \"Story\": \"#22aa99\", \"TODO\": \"#66aa00\", \"Taufik\": \"#0099c6\", \"Terry\": \"#990099\", \"Tharman\": \"#66aa00\", \"Total SP\": \"#6633cc\", \"UAT\": \"#109618\", \"Vivian\": \"#b82e2e\", \"Yusof\": \"#3b3eac\", \"root\": \"#316395\"}, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"age\", \"description\": \"age\", \"expression\": \"random()*5\", \"filterable\": true, \"groupby\": true, \"id\": 859, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"NUMERIC\", \"verbose_name\": \"age\"}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Age Groups\", \"optionName\": \"metric_kfkwp11k1z_tkkwua3ivio\", \"sqlExpression\": null}], \"order_bars\": true, \"order_desc\": false, \"reduce_x_ticks\": false, \"row_limit\": 250, \"show_bar_value\": true, \"show_controls\": true, \"slice_id\": 173, \"time_range\": \"Last quarter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": [], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_axis_label\": \"Age groups 0 : > 1 |  1 : 1 to 2 | 2 : 2 to 4 | 3 : 4 to 5 | 5 : >5\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 173, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Defects Aging Slab",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 174,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"googleCategory20c\", \"columns\": [], \"contribution\": false, \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Fix Version/s\"], \"label_colors\": {\"AVG(age)\": \"#b82e2e\", \"Abdul\": \"#0099c6\", \"Actual Burnout\": \"#994499\", \"Age Groups\": \"#3366cc\", \"Agu\": \"#66aa00\", \"Ang\": \"#316395\", \"Arun\": \"#316395\", \"Average Closure\": \"#e67300\", \"BUG\": \"#994499\", \"Chan\": \"#e67300\", \"Chan Chun Sing\": \"#109618\", \"Chew\": \"#5574a6\", \"Chia\": \"#651067\", \"Chia Kiah Hong Steve\": \"#ff9900\", \"Chiam\": \"#ff9900\", \"Chiam See Tong\": \"#3366cc\", \"Commited\": \"#3366cc\", \"Completed SP\": \"#8b0707\", \"DESIGN\": \"#dd4477\", \"DONE\": \"#990099\", \"Daniel\": \"#dd4477\", \"Defect Count\": \"#ff9900\", \"Desmond\": \"#ff9900\", \"Done\": \"#dc3912\", \"Fandi\": \"#6633cc\", \"Fann\": \"#3366cc\", \"GWB_ACC_SRV\": \"#651067\", \"GWB_ACC_SRV,BUG\": \"#651067\", \"GWB_ACC_SRV,Story\": \"#329262\", \"GWB_MOBILE\": \"#329262\", \"GWB_MOBILE,BUG\": \"#e67300\", \"GWB_MOBILE,Story\": \"#8b0707\", \"GWB_TRADE\": \"#5574a6\", \"GWB_TRADE,BUG\": \"#aaaa11\", \"GWB_TRADE,Story\": \"#6633cc\", \"Gerard\": \"#dd4477\", \"Goh\": \"#990099\", \"Goh Tat Chuan\": \"#66aa00\", \"Han\": \"#22aa99\", \"Hazlina\": \"#ff9900\", \"Hazlina Halim\": \"#990099\", \"Heng\": \"#994499\", \"Heng Swee Keat\": \"#dd4477\", \"Highest\": \"#ff9900\", \"Ho\": \"#dc3912\", \"Hoi\": \"#994499\", \"Hoi Kim Heng\": \"#dc3912\", \"Hon\": \"#3366cc\", \"INPROGRESS\": \"#b82e2e\", \"Imm\": \"#dc3912\", \"In Progress\": \"#ff9900\", \"Indranee\": \"#329262\", \"Ivan\": \"#8b0707\", \"Jeanette\": \"#3b3eac\", \"Jiang\": \"#3366cc\", \"Jing\": \"#aaaa11\", \"Jing Jun Hong\": \"#0099c6\", \"Joanna\": \"#5574a6\", \"Joseph\": \"#dc3912\", \"Joshua\": \"#aaaa11\", \"Kam\": \"#e67300\", \"Kam Ning\": \"#b82e2e\", \"Keith\": \"#b82e2e\", \"Khaw\": \"#22aa99\", \"Kit\": \"#651067\", \"Low\": \"#dc3912\", \"Lye\": \"#8b0707\", \"Mavis\": \"#dc3912\", \"Medium\": \"#3366cc\", \"Nicholas\": \"#6633cc\", \"Nicholas Chia\": \"#3b3eac\", \"Original Estimate\": \"#316395\", \"Pending\": \"#aaaa11\", \"Philip\": \"#329262\", \"Rebecca\": \"#990099\", \"Rohan\": \"#3b3eac\", \"S\": \"#109618\", \"SIT\": \"#0099c6\", \"SP Committed\": \"#316395\", \"SP Total\": \"#994499\", \"SPs Commited\": \"#22aa99\", \"Sammie\": \"#109618\", \"Sean\": \"#5574a6\", \"Shunmugam\": \"#109618\", \"Sprint 1\": \"#0099c6\", \"Sprint 2\": \"#dd4477\", \"Sprint 3\": \"#66aa00\", \"Sprint 4\": \"#990099\", \"Sprint 5\": \"#109618\", \"Story\": \"#22aa99\", \"TODO\": \"#66aa00\", \"Taufik\": \"#0099c6\", \"Terry\": \"#990099\", \"Tharman\": \"#66aa00\", \"Total SP\": \"#6633cc\", \"UAT\": \"#109618\", \"Vivian\": \"#b82e2e\", \"Yusof\": \"#3b3eac\", \"root\": \"#316395\"}, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"age\", \"description\": \"age\", \"expression\": \"random()*5\", \"filterable\": true, \"groupby\": true, \"id\": 859, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"NUMERIC\", \"verbose_name\": \"age\"}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Age Groups\", \"optionName\": \"metric_kfkwp11k1z_tkkwua3ivio\", \"sqlExpression\": null}], \"order_bars\": true, \"order_desc\": false, \"reduce_x_ticks\": false, \"row_limit\": 250, \"show_bar_value\": true, \"show_controls\": true, \"slice_id\": 174, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": [], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 174, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Defects by release",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Test_JIRA_BV_9.3",
+                            "datasource_type": "table",
+                            "id": 175,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BUG\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_y2tipv8d9b_dgv0jnrq8q\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"Issue Type\"}, {\"clause\": \"WHERE\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_f7p5wr749kl_hmfafl4403\", \"isExtra\": false, \"isNew\": false, \"operator\": \"IS NULL\", \"sqlExpression\": null, \"subject\": \"Fix Version/s\"}], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"googleCategory20c\", \"columns\": [], \"contribution\": false, \"datasource\": \"28__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Customfield_SprintEndDate_\", \"groupby\": [\"Fix Version/s\"], \"label_colors\": {\"AVG(age)\": \"#b82e2e\", \"Abdul\": \"#0099c6\", \"Actual Burnout\": \"#994499\", \"Age Groups\": \"#3366cc\", \"Agu\": \"#66aa00\", \"Ang\": \"#316395\", \"Arun\": \"#316395\", \"Average Closure\": \"#e67300\", \"BUG\": \"#994499\", \"Chan\": \"#e67300\", \"Chan Chun Sing\": \"#109618\", \"Chew\": \"#5574a6\", \"Chia\": \"#651067\", \"Chia Kiah Hong Steve\": \"#ff9900\", \"Chiam\": \"#ff9900\", \"Chiam See Tong\": \"#3366cc\", \"Commited\": \"#3366cc\", \"Completed SP\": \"#8b0707\", \"DESIGN\": \"#dd4477\", \"DONE\": \"#990099\", \"Daniel\": \"#dd4477\", \"Defect Count\": \"#ff9900\", \"Desmond\": \"#ff9900\", \"Done\": \"#dc3912\", \"Fandi\": \"#6633cc\", \"Fann\": \"#3366cc\", \"GWB_ACC_SRV\": \"#651067\", \"GWB_ACC_SRV,BUG\": \"#651067\", \"GWB_ACC_SRV,Story\": \"#329262\", \"GWB_MOBILE\": \"#329262\", \"GWB_MOBILE,BUG\": \"#e67300\", \"GWB_MOBILE,Story\": \"#8b0707\", \"GWB_TRADE\": \"#5574a6\", \"GWB_TRADE,BUG\": \"#aaaa11\", \"GWB_TRADE,Story\": \"#6633cc\", \"Gerard\": \"#dd4477\", \"Goh\": \"#990099\", \"Goh Tat Chuan\": \"#66aa00\", \"Han\": \"#22aa99\", \"Hazlina\": \"#ff9900\", \"Hazlina Halim\": \"#990099\", \"Heng\": \"#994499\", \"Heng Swee Keat\": \"#dd4477\", \"Highest\": \"#ff9900\", \"Ho\": \"#dc3912\", \"Hoi\": \"#994499\", \"Hoi Kim Heng\": \"#dc3912\", \"Hon\": \"#3366cc\", \"INPROGRESS\": \"#b82e2e\", \"Imm\": \"#dc3912\", \"In Progress\": \"#ff9900\", \"Indranee\": \"#329262\", \"Ivan\": \"#8b0707\", \"Jeanette\": \"#3b3eac\", \"Jiang\": \"#3366cc\", \"Jing\": \"#aaaa11\", \"Jing Jun Hong\": \"#0099c6\", \"Joanna\": \"#5574a6\", \"Joseph\": \"#dc3912\", \"Joshua\": \"#aaaa11\", \"Kam\": \"#e67300\", \"Kam Ning\": \"#b82e2e\", \"Keith\": \"#b82e2e\", \"Khaw\": \"#22aa99\", \"Kit\": \"#651067\", \"Low\": \"#dc3912\", \"Lye\": \"#8b0707\", \"Mavis\": \"#dc3912\", \"Medium\": \"#3366cc\", \"Nicholas\": \"#6633cc\", \"Nicholas Chia\": \"#3b3eac\", \"Original Estimate\": \"#316395\", \"Pending\": \"#aaaa11\", \"Philip\": \"#329262\", \"Rebecca\": \"#990099\", \"Rohan\": \"#3b3eac\", \"S\": \"#109618\", \"SIT\": \"#0099c6\", \"SP Committed\": \"#316395\", \"SP Total\": \"#994499\", \"SPs Commited\": \"#22aa99\", \"Sammie\": \"#109618\", \"Sean\": \"#5574a6\", \"Shunmugam\": \"#109618\", \"Sprint 1\": \"#0099c6\", \"Sprint 2\": \"#dd4477\", \"Sprint 3\": \"#66aa00\", \"Sprint 4\": \"#990099\", \"Sprint 5\": \"#109618\", \"Story\": \"#22aa99\", \"TODO\": \"#66aa00\", \"Taufik\": \"#0099c6\", \"Terry\": \"#990099\", \"Tharman\": \"#66aa00\", \"Total SP\": \"#6633cc\", \"UAT\": \"#109618\", \"Vivian\": \"#b82e2e\", \"Yusof\": \"#3b3eac\", \"root\": \"#316395\"}, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"age\", \"description\": \"age\", \"expression\": \"random()*5\", \"filterable\": true, \"groupby\": true, \"id\": 859, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"NUMERIC\", \"verbose_name\": \"age\"}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Age Groups\", \"optionName\": \"metric_kfkwp11k1z_tkkwua3ivio\", \"sqlExpression\": null}], \"order_bars\": true, \"order_desc\": false, \"reduce_x_ticks\": false, \"row_limit\": 250, \"show_bar_value\": true, \"show_controls\": true, \"slice_id\": 175, \"time_range\": \"Last quarter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": [], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 175, \"datasource_name\": \"Test_JIRA_BV_9.3\", \"schema\": null, \"database_name\": \"postgresDB\"}",
+                            "slice_name": "GWB Defects Unplugged from release",
+                            "viz_type": "dist_bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "column_name": "Summary",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 774,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "1151650b-a3d8-4b04-bc3e-86ace6ac82e0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "column_name": "Issue key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 775,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "c9fd7e8b-a14a-4f58-aff1-f358bba1926c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "column_name": "ApplicationName",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 776,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "d9a1d4e5-4f01-4a68-9fa3-6a632ea040c0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "column_name": "Issue id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 777,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "BIGINT",
+                            "uuid": "ecc34dbc-a00f-42a8-9757-bc2ad0822f06",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "column_name": "Issue Type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 778,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "dc375a85-36d5-4ba8-9044-6f84124b20f6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "column_name": "Status",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 779,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "e4db86d9-eed2-44e6-acc7-81a4ce85c2a7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "column_name": "Project key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 780,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "2b03bed4-5205-49e3-b94c-ba285534a223",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Project name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 781,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "6807e674-6f23-4484-a668-b894ef69a539",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Project type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 782,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "a18d32e4-8dc8-4494-a2ac-90c32fedaa07",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Project lead",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 783,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "dc9edff2-06d2-46da-980b-5bbd01d70301",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Project description",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 784,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "1fdb47c8-38c0-4f24-a06e-42a6c53019d9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Project url",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 785,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "f485bc8f-7665-453a-8bf5-9d7d8aa3cb05",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Priority",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 786,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "2aea16c5-0b81-47b0-b230-a44a9f413b31",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Resolution",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 787,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "d9bac67d-9e41-419c-a55b-670902771486",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Sprint",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 788,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "11fdbdda-3792-4e8e-a57f-dddf6b045812",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Story Points_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 789,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "BIGINT",
+                            "uuid": "53143394-0f61-43f2-b96e-252c013d7efc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Assignee",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 790,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "e573a412-fa64-48de-8937-0704c66e916d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Customfield_SprintEndDate_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 791,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "880cccb4-03b1-4df2-aaf2-1d089d404235",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Reporter",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 792,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "6ec26c3c-6a1f-4538-be92-fcb9a3d6b3ff",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Creator",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 793,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "b3e96b9e-982e-4c03-8971-7fe4de089ace",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Created",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 794,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "8ad969bd-efdf-43e3-a309-be74cba15c72",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Updated",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 795,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "3d05e795-229c-4709-b20f-25e64d8f0fab",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Last Viewed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 796,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "ef7d0893-a484-42f2-9ed2-d91154bf2c10",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Resolved",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 797,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "fb49e1ad-00e6-4e8a-add7-3bbf7e52adde",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Affects Version/s",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 798,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "a7d4ca0b-1171-4b6f-8559-f03782ab815b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Fix Version/s",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 799,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "759cedc5-37d8-4eb3-ab38-f178a36cf126",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Component/s",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 800,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "2205b461-9c45-4e21-8038-b76c08f5d76d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Component/s.1",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 801,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "377e1fbf-3993-4e35-a832-25181ea89fa2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Due Date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 802,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "f0ac0a40-ba9b-4b5c-9a02-2246d3d6ef74",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Labels",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 803,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "84f54550-b8cc-4265-a08b-f06c3a490974",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Labels.1",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 804,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "36510362-38cb-461e-8f55-19cb9292e520",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Labels.2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 805,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "e7a48fe4-7abb-457f-9b69-0ed10ad5725c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Description",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 806,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "b9d8dfe6-1af2-46db-aadf-870c60e9fc50",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Environment",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 807,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "7c835487-51e6-4185-b801-a2f047dd4f9b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Log Work",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 808,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "6ac78c55-d308-46d1-bfd2-4b7d0a48dbef",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Original Estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 809,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "BIGINT",
+                            "uuid": "b5371d17-1688-42cf-8364-a1656fdb0738",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Remaining Estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 810,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "BIGINT",
+                            "uuid": "5e645bf2-f91b-4d7f-89dc-3f96f38f01f9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Time Spent",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 811,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "BIGINT",
+                            "uuid": "27d216ec-dba6-4255-ae81-2f877da29416",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Work Ratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 812,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "a05c9da4-c2b8-4ebc-92ba-641005331332",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "\u03a3 Original Estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 813,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "84af535a-05ec-4fb0-958f-c0c65af70427",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "\u03a3 Remaining Estimate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 814,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "5592ae17-ef3d-473e-9ca4-ae1ef32b5e4a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "\u03a3 Time Spent",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 815,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "eb9fde92-20cc-45d1-8cb3-139539919da2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Security Level",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 816,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "9dbc1c12-83fa-4505-9a14-b6f3f7e61344",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Inward issue link _Relates_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 817,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "b43e7c25-a423-4a5c-ae12-daca3341b46a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Outward issue link _Relates_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 818,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "df22341f-57c9-47e9-b985-0b6e8c526ad5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Attachment",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 819,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "47fea2b2-436d-4ae4-bacb-167e1ce622b2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Approvers_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 820,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "4e7e0b96-1248-4957-be0a-30e23412ee59",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Approvers_.1",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 821,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "e0e47783-f402-4674-a617-d7d3072acf93",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Change completion date_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 822,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "d7e0ac8d-4419-4ea4-95c9-cf60e327c2e2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Change start date_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 823,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "0079fd2d-8bb9-42a8-abd2-6562157f1791",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Customer Request Type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 824,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "4fa0101c-604c-4858-ac7f-ea9c4fe9fc75",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Epic Colour_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 825,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "47ccc92e-a97b-49a5-9a3c-792287be4f93",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Epic Link_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 826,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "28eb091f-5e1b-42e8-a3fe-965ad0641a0e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Epic Name_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 827,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "94dea587-458b-4af2-b3c1-11b1b9993991",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Epic Status_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 828,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "12b28e50-ce0d-4311-8b09-cc6013ba7d81",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Impact_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 829,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "30d070a3-3213-4c2f-a6b4-f0804c93a571",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Linked major incidents_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 830,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "7c6bf476-9f50-4329-8630-10ee788ce9cf",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Operational categorization_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 831,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "f9a10c5b-c008-4956-90e9-3744f3ab14f3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Organizations_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 832,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "b6ab67ce-e52e-4c3a-a401-98a7446bbe93",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Organizations_.1",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 833,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "f2c77391-5b7c-4a2c-9022-644b7ab0ab3e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Product categorization_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 834,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "c3cc9f90-85e8-4c82-bbff-c76708e076ab",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _RAG_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 835,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "f9fa0963-dc2e-44c1-8354-7fa97894f5bb",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Rank_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 836,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "8e901e5d-c44a-479c-956d-33dcfc7801ad",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Request participants_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 837,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "905b1b0b-f9e9-4878-8baa-c673aab26c72",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Reviewed_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 838,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "TEXT",
+                            "uuid": "50579e74-61b0-43f6-b7d0-a82bee50df72",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Root cause_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 839,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "24d166bc-c98b-46b2-9974-dd44420c8ae7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Satisfaction score _out of 5_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 840,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "4a52870c-a3af-4178-89fd-f88534f76d96",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Scripted Number Field_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 841,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "BIGINT",
+                            "uuid": "98387d58-0bdc-44cf-b01d-de2ea450027d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Unnamed: 68",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 842,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "bc0b8dbf-65c8-47cf-961d-0bc166bc660c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Unnamed: 69",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 843,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "f00a3fa5-206a-4826-9b42-bdd8bddb7f4a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Time to approve normal change",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 844,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "aee1a1ae-eabc-4f67-9d4b-f6090db28185",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Time to approve normal change simplified",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 845,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "7912f973-07be-4807-a97e-dafe1a92b846",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Time to close after resolution",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 846,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "62ec6cf0-84c6-4350-96a1-1d5af1d839c4",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Time to close after resolution simplified",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 847,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "5abafb82-b18b-4bc0-9a9e-14607495b152",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Time to first response",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 848,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "d20c9323-8f5b-4aef-8fc2-4d03079b3830",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Time to first response simplified",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 849,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "9ea93741-de5c-465f-a5ca-c2067c4a4552",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Time to resolution",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 850,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "802c8f31-0cdc-43f5-854a-f75a9751f5a0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Time to resolution simplified",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 851,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "f278e2a9-15ab-4143-9154-ea2c9175359f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Custom field _Workaround_",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 852,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "8ac7c820-c6c6-45c1-9acb-4a612a7a71bb",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Comment",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 853,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "ef5e0cd5-ba30-4c69-92ad-31ef24cf5e12",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "Comment.1",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": null,
+                            "expression": "",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 854,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "f83edd6f-c7de-4e81-a5cc-f9905786974d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "closedSP",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": "CLOSEDSP",
+                            "expression": "(case when \"Status\" like 'DONE' then  \"Custom field _Story Points_\" when \"Status\" like 'PROD' then  \"Custom field _Story Points_\" when \"Status\" like 'SIT' then  \"Custom field _Story Points_\" when \"Status\" like 'UAT' then  \"Custom field _Story Points_\" else 0 end )\n",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 855,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": null,
+                            "uuid": "91c1627c-aa21-478c-8ecc-9e0c5d6dc401",
+                            "verbose_name": "CLOSEDSP"
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "sprint_no",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": "sprint_no",
+                            "expression": "RIGHT(\"Sprint\", 2) ",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 856,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "NUMERIC",
+                            "uuid": "91cee37b-b281-46f4-9b88-576992e48da7",
+                            "verbose_name": "sprint_no"
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "column_name": "version",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:33"
+                            },
+                            "description": "version",
+                            "expression": "RIGHT(\"Fix Version/s\", 6) ",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 857,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "NUMERIC",
+                            "uuid": "5700fe44-85d3-486c-a3f6-8f5fca2fe4b8",
+                            "verbose_name": "version"
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T08:28:25"
+                            },
+                            "column_name": "PendingSP",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T08:27:45"
+                            },
+                            "description": "PendingSP",
+                            "expression": "(case when \"Status\" like 'INPROGRESS' then  \"Custom field _Story Points_\" when \"Status\" like 'DESIGN' then  \"Custom field _Story Points_\" when \"Status\" like 'TODO' then  \"Custom field _Story Points_\"  else 0 end )",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 858,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "NUMERIC",
+                            "uuid": "ae948ad6-5a08-4c59-a7f0-2d097747581b",
+                            "verbose_name": "PendingSP"
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T11:01:24"
+                            },
+                            "column_name": "age",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T10:55:00"
+                            },
+                            "description": "age",
+                            "expression": "random()*5",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 859,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "NUMERIC",
+                            "uuid": "9325b3bc-0044-4a8a-ba9b-70481e8d3b68",
+                            "verbose_name": "age"
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-21T07:24:58"
+                            },
+                            "column_name": "agegroup",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-21T07:24:58"
+                            },
+                            "description": "agegroup",
+                            "expression": "(case when random()*5 > 0 and random()*5 < 0.5 then  1 when random()*5 > 1 and random()*5 < 2 then  2 when random()*5 > 2 and random()*5 < 3 then  3 when  random()*5 > 3 and random()*5 < 5 then  5 when  random()*5 > 5  then  10  else 0 end )",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 860,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "NUMERIC",
+                            "uuid": "ed67a5ab-0f5c-4e4c-a6ff-89f9c0e1afbd",
+                            "verbose_name": "agegroup"
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-21T08:49:04"
+                            },
+                            "column_name": "statussorted",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-21T08:07:20"
+                            },
+                            "description": "statussorted",
+                            "expression": "(case \"Status\"\n            when 'DESIGN' then '1.DESIGN'\n            when 'TODO' then '2.TODO'\n            when 'INPROGRESS' then '3.INPROGRESS'\n            when 'DONE' then '4.DONE'\n            when 'SIT' then '5.SIT'\n            when 'UAT' then '6.UAT'\n            else \"Status\"\n        end)",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 861,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "STRING",
+                            "uuid": "cef5b3e0-a0ff-4d75-a8a6-497462681c2b",
+                            "verbose_name": "statussorted"
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-21T09:14:08"
+                            },
+                            "column_name": "assigneesorted",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-21T09:05:57"
+                            },
+                            "description": "assigneesorted",
+                            "expression": "(case \"Assignee\"\n            when 'Chew Choon Seng' then 'Sean'\n            when 'Nicholas Chia' then 'Sammie'\n            when 'Chia Kiah Hong Steve' then 'Arun Kailasam'\n            when 'Chan Chun Sing' then 'Arun Kumar M'\n            else \"Assignee\"\n        end)",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 862,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 28,
+                            "type": "STRING",
+                            "uuid": "4914d5fe-3661-42fd-a02d-5afbb1d99b84",
+                            "verbose_name": "assigneesorted"
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "Customfield_SprintEndDate_",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-04-20T06:36:32"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": "{}",
+                            "id": 36,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 28,
+                            "uuid": "c69a97bd-bf38-4251-94ab-d0c19ac9d104",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 28, \"database_name\": \"postgresDB\"}",
+                "schema": null,
+                "sql": "",
+                "table_name": "GWBJIRA101",
+                "template_params": null
+            }
+        }
+    ]
+}

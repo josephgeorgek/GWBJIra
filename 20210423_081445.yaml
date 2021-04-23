@@ -1,0 +1,313 @@
+- columns:
+  - column_name: statussorted
+    description: statussorted
+    expression: "(case \"Status\"\n            when 'DESIGN' then '1.DESIGN'\n   \
+      \         when 'TODO' then '2.TODO'\n            when 'INPROGRESS' then '3.INPROGRESS'\n\
+      \            when 'DONE' then '4.DONE'\n            when 'SIT' then '5.SIT'\n\
+      \            when 'UAT' then '6.UAT'\n            else \"Status\"\n        end)"
+    type: STRING
+    verbose_name: statussorted
+  - column_name: assigneesorted
+    description: assigneesorted
+    expression: "(case \"Assignee\"\n            when 'Chew Choon Seng' then 'Sean'\n\
+      \            when 'Nicholas Chia' then 'Sammie'\n            when 'Chia Kiah\
+      \ Hong Steve' then 'Arun Kailasam'\n            when 'Chan Chun Sing' then 'Arun\
+      \ Kumar M'\n            else \"Assignee\"\n        end)"
+    type: STRING
+    verbose_name: assigneesorted
+  - column_name: agegroup
+    description: agegroup
+    expression: (case when random()*5 > 0 and random()*5 < 0.5 then  1 when random()*5
+      > 1 and random()*5 < 2 then  2 when random()*5 > 2 and random()*5 < 3 then  3
+      when  random()*5 > 3 and random()*5 < 5 then  5 when  random()*5 > 5  then  10  else
+      0 end )
+    type: NUMERIC
+    verbose_name: agegroup
+  - column_name: closedSP
+    description: CLOSEDSP
+    expression: '(case when "Status" like ''DONE'' then  "Custom field _Story Points_"
+      when "Status" like ''PROD'' then  "Custom field _Story Points_" when "Status"
+      like ''SIT'' then  "Custom field _Story Points_" when "Status" like ''UAT''
+      then  "Custom field _Story Points_" else 0 end )
+
+      '
+    verbose_name: CLOSEDSP
+  - column_name: PendingSP
+    description: PendingSP
+    expression: (case when "Status" like 'INPROGRESS' then  "Custom field _Story Points_"
+      when "Status" like 'DESIGN' then  "Custom field _Story Points_" when "Status"
+      like 'TODO' then  "Custom field _Story Points_"  else 0 end )
+    type: NUMERIC
+    verbose_name: PendingSP
+  - column_name: version
+    description: version
+    expression: 'RIGHT("Fix Version/s", 6) '
+    type: NUMERIC
+    verbose_name: version
+  - column_name: sprint_no
+    description: sprint_no
+    expression: 'RIGHT("Sprint", 2) '
+    type: NUMERIC
+    verbose_name: sprint_no
+  - column_name: Last Viewed
+    expression: ''
+    is_dttm: true
+    type: TIMESTAMP WITHOUT TIME ZONE
+  - column_name: Time to approve normal change simplified
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Time to close after resolution simplified
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Customfield_SprintEndDate_
+    expression: ''
+    is_dttm: true
+    type: TIMESTAMP WITHOUT TIME ZONE
+  - column_name: Created
+    expression: ''
+    is_dttm: true
+    type: TIMESTAMP WITHOUT TIME ZONE
+  - column_name: Resolved
+    expression: ''
+    is_dttm: true
+    type: TIMESTAMP WITHOUT TIME ZONE
+  - column_name: Updated
+    expression: ''
+    is_dttm: true
+    type: TIMESTAMP WITHOUT TIME ZONE
+  - column_name: Satisfaction score _out of 5_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Change start date_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Change completion date_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Linked major incidents_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Time to approve normal change
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Time to close after resolution
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Time to first response simplified
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: age
+    description: age
+    expression: random()*5
+    type: NUMERIC
+    verbose_name: age
+  - column_name: Custom field _Epic Colour_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Epic Name_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Epic Status_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Operational categorization_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Product categorization_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Request participants_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Root cause_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Inward issue link _Relates_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Outward issue link _Relates_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Time to resolution simplified
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Time to first response
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Scripted Number Field_
+    expression: ''
+    type: BIGINT
+  - column_name: Custom field _Approvers_.1
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Organizations_.1
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Approvers_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Impact_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Organizations_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Customer Request Type
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Workaround_
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: "\u03A3 Original Estimate"
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: "\u03A3 Remaining Estimate"
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: "\u03A3 Time Spent"
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Time to resolution
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Story Points_
+    expression: ''
+    type: BIGINT
+  - column_name: Custom field _Epic Link_
+    expression: ''
+    type: TEXT
+  - column_name: Affects Version/s
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: 'Unnamed: 68'
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: 'Unnamed: 69'
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _RAG_
+    expression: ''
+    type: TEXT
+  - column_name: Security Level
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Log Work
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Project description
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Project url
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Work Ratio
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Custom field _Rank_
+    expression: ''
+    type: TEXT
+  - column_name: Custom field _Reviewed_
+    expression: ''
+    type: TEXT
+  - column_name: Component/s.1
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Comment.1
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Labels.1
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Labels.2
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Fix Version/s
+    expression: ''
+    type: TEXT
+  - column_name: Attachment
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Comment
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Description
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Environment
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Labels
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Resolution
+    expression: ''
+    type: DOUBLE PRECISION
+  - column_name: Original Estimate
+    expression: ''
+    type: BIGINT
+  - column_name: Remaining Estimate
+    expression: ''
+    type: BIGINT
+  - column_name: Issue id
+    expression: ''
+    type: BIGINT
+  - column_name: Time Spent
+    expression: ''
+    type: BIGINT
+  - column_name: Due Date
+    expression: ''
+    type: TEXT
+  - column_name: Issue Type
+    expression: ''
+    type: TEXT
+  - column_name: Issue key
+    expression: ''
+    type: TEXT
+  - column_name: Project lead
+    expression: ''
+    type: TEXT
+  - column_name: Project name
+    expression: ''
+    type: TEXT
+  - column_name: Project key
+    expression: ''
+    type: TEXT
+  - column_name: Project type
+    expression: ''
+    type: TEXT
+  - column_name: Component/s
+    expression: ''
+    type: TEXT
+  - column_name: ApplicationName
+    expression: ''
+    type: TEXT
+  - column_name: Assignee
+    expression: ''
+    type: TEXT
+  - column_name: Creator
+    expression: ''
+    type: TEXT
+  - column_name: Priority
+    expression: ''
+    type: TEXT
+  - column_name: Reporter
+    expression: ''
+    type: TEXT
+  - column_name: Summary
+    expression: ''
+    type: TEXT
+  - column_name: Status
+    expression: ''
+    type: TEXT
+  - column_name: Sprint
+    expression: ''
+    type: TEXT
+  main_dttm_col: Customfield_SprintEndDate_
+  metrics:
+  - expression: COUNT(*)
+    extra: '{}'
+    metric_name: count
+    metric_type: count
+    verbose_name: COUNT(*)
+  sql: ''
+  table_name: Test_JIRA_BV_9.3
